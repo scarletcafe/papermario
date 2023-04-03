@@ -1,4 +1,4 @@
-#include "effects/gfx/D_09000000_3B8860.png.inc.c"
+#include "effects/gfx/effect__5C_WaterFountain.png.inc.c"
 
 #include "effects/gfx/D_09000200_3B8A60.vtx.inc.c"
 #include "effects/gfx/D_09000240_3B8AA0.vtx.inc.c"

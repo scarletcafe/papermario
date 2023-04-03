@@ -1,6 +1,6 @@
-#include "effects/gfx/D_09000000_353BB0.png.inc.c"
+#include "effects/gfx/effect__20_Fire_Detail.png.inc.c"
 #include "effects/gfx/D_09000200_353DB0.png.inc.c"
-#include "effects/gfx/D_09000400_353FB0.png.inc.c"
+#include "effects/gfx/effect__20_Fire_Main.png.inc.c"
 #include "effects/gfx/D_09000600_3541B0.png.inc.c"
 
 extern unsigned char D_800B32E0[];

@@ -1,7 +1,7 @@
 #include "common.h"
 
-#include "effects/gfx/D_09000000_3E2960.png.inc.c"
-#include "effects/gfx/D_09000800_3E3160.png.inc.c"
+#include "effects/gfx/effect__75_StarField_A.png.inc.c"
+#include "effects/gfx/effect__75_StarField_B.png.inc.c"
 
 #include "effects/gfx/D_09001000_3E3960.vtx.inc.c"
 #include "effects/gfx/D_09001070_3E39D0.vtx.inc.c"

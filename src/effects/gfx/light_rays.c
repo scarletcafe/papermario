@@ -1,4 +1,4 @@
-#include "effects/gfx/D_09000000_36DF90.png.inc.c"
+#include "effects/gfx/effect__35_LightPoint.png.inc.c"
 
 #include "effects/gfx/D_09000080_36E010.vtx.inc.c"
 #include "effects/gfx/D_090000B0_36E040.gfx.inc.c"

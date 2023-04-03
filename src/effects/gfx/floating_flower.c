@@ -1,7 +1,7 @@
 #include "common.h"
 
-#include "effects/gfx/D_09000000_330460.png.inc.c"
-#include "effects/gfx/D_09000000_330460.pal.inc.c"
+#include "effects/gfx/effect__0D_Flower_FloatingPetal.png.inc.c"
+#include "effects/gfx/effect__0D_Flower_FloatingPetal.pal.inc.c"
 
 #include "effects/gfx/D_090000A0_330500.vtx.inc.c"
 #include "effects/gfx/D_09000170_3305D0.vtx.inc.c"

@@ -1,5 +1,5 @@
-#include "effects/gfx/D_09000000_3CB890.png.inc.c"
-#include "effects/gfx/D_09000800_3CC090.png.inc.c"
+#include "effects/gfx/effect__62_StopWatch_Center.png.inc.c"
+#include "effects/gfx/effect__62_StopWatch_Glow.png.inc.c"
 
 #include "effects/gfx/D_09001000_3CC890.gfx.inc.c"
 

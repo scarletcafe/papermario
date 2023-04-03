@@ -1,9 +1,9 @@
 #include "common.h"
 
-#include "effects/gfx/D_09000000_32CEC0.png.inc.c"
-#include "effects/gfx/D_09000000_32CEC0.pal.inc.c"
-#include "effects/gfx/D_09000000_32CEC0.yellow.pal.inc.c"
-#include "effects/gfx/D_090000C0_32CF80.png.inc.c"
+#include "effects/gfx/effect__Flower_GoldPetal.png.inc.c"
+#include "effects/gfx/effect__Flower_GoldPetal.pal.inc.c"
+#include "effects/gfx/effect__Flower_GoldPetal.yellow.pal.inc.c"
+#include "effects/gfx/effect__Flower.png.inc.c"
 
 #include "effects/gfx/D_090008C0_32D780.vtx.inc.c"
 #include "effects/gfx/D_09000A30_32D8F0.vtx.inc.c"

@@ -1,4 +1,4 @@
-#include "effects/gfx/D_09000000_40A1C0.png.inc.c"
+#include "effects/gfx/effect__81_IcePillar.png.inc.c"
 #include "effects/gfx/D_09000400_40A5C0.png.inc.c"
 #include "effects/gfx/D_09000800_40A9C0.png.inc.c"
 #include "effects/gfx/D_09000C00_40ADC0.png.inc.c"

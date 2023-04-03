@@ -3,7 +3,7 @@
 #include "effects/gfx/battle/good.png.inc.c"
 #include "effects/gfx/battle/nice.png.inc.c"
 #include "effects/gfx/battle/super.png.inc.c"
-#include "effects/gfx/D_09001400_3917D0.png.inc.c"
+#include "effects/gfx/effect__48_TextPopup_Gradient.png.inc.c"
 
 #include "effects/gfx/D_09001500_3918D0.gfx.inc.c"
 #include "effects/gfx/D_090015A8_391978.gfx.inc.c"

@@ -1,8 +1,8 @@
-#include "effects/gfx/D_09000000_377F80.png.inc.c"
-#include "effects/gfx/D_09000400_378380.png.inc.c"
-#include "effects/gfx/D_09000800_378780.png.inc.c"
-#include "effects/gfx/D_09001000_378F80.png.inc.c"
-#include "effects/gfx/D_09001800_379780.png.inc.c"
+#include "effects/gfx/effect__3B_Aura_Noise.png.inc.c"
+#include "effects/gfx/effect__3B_Aura_StarSpirit.png.inc.c"
+#include "effects/gfx/effect__3B_Aura_Bowser.png.inc.c"
+#include "effects/gfx/effect__3B_Aura_PoweredUp.png.inc.c"
+#include "effects/gfx/effect__3B_Aura_Detail.png.inc.c"
 
 #include "effects/gfx/D_09002000_379F80.gfx.inc.c"
 #include "effects/gfx/D_090020E8_37A068.gfx.inc.c"

@@ -1,10 +1,10 @@
-#include "effects/gfx/D_09000000_40D290.png.inc.c"
-#include "effects/gfx/D_09000200_40D490.png.inc.c"
+#include "effects/gfx/effect__83_RescueSpirit_LightOrb.png.inc.c"
+#include "effects/gfx/effect__83_RescueSpirit_Fragments.png.inc.c"
 #include "effects/gfx/D_09001200_40E490.png.inc.c"
 #include "effects/gfx/D_09002200_40F490.png.inc.c"
 #include "effects/gfx/D_09003200_410490.png.inc.c"
-#include "effects/gfx/D_09004200_411490.png.inc.c"
-#include "effects/gfx/D_09004A00_411C90.png.inc.c"
+#include "effects/gfx/effect__83_RescueSpirit_Shockwave.png.inc.c"
+#include "effects/gfx/effect__83_RescueSpirit_LightBurst.png.inc.c"
 
 #include "effects/gfx/D_09004E00_412090.gfx.inc.c"
 

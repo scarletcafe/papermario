@@ -1,4 +1,4 @@
-#include "effects/gfx/D_09000000_38A350.png.inc.c"
+#include "effects/gfx/effect__43_Firework.png.inc.c"
 
 #include "effects/gfx/D_09000800_38AB50.vtx.inc.c"
 #include "effects/gfx/D_09000840_38AB90.vtx.inc.c"

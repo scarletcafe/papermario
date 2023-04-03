@@ -1,8 +1,8 @@
-#include "effects/gfx/D_09000000_334C70.png.inc.c"
-#include "effects/gfx/D_09000400_335070.png.inc.c"
-#include "effects/gfx/D_09000A00_335670.png.inc.c"
-#include "effects/gfx/D_09001600_336270.png.inc.c"
-#include "effects/gfx/D_09001E00_336A70.png.inc.c"
+#include "effects/gfx/effect__10_Emote_Bubble.png.inc.c"
+#include "effects/gfx/effect__10_Emote_Exclaim.png.inc.c"
+#include "effects/gfx/effect__10_Emote_Question.png.inc.c"
+#include "effects/gfx/effect__10_Emote_Frustration.png.inc.c"
+#include "effects/gfx/effect__10_Emote_Waiting.png.inc.c"
 
 #include "effects/gfx/D_09002000_336C70.vtx.inc.c"
 #include "effects/gfx/D_09002040_336CB0.vtx.inc.c"

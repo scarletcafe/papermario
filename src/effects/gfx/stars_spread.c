@@ -1,4 +1,4 @@
-#include "effects/gfx/D_09000000_360A30.png.inc.c"
+#include "effects/gfx/effect__2D_Star.png.inc.c"
 
 #include "effects/gfx/D_09000400_360E30.vtx.inc.c"
 

@@ -1,6 +1,6 @@
-#include "effects/gfx/D_09000000_328EA0.png.inc.c"
-#include "effects/gfx/D_09001000_329EA0.png.inc.c"
-#include "effects/gfx/D_09001840_32A6E0.png.inc.c"
+#include "effects/gfx/effect__Dust_Large.png.inc.c"
+#include "effects/gfx/effect__Dust_Small.png.inc.c"
+#include "effects/gfx/effect__Dust_Medium.png.inc.c"
 
 #include "effects/gfx/D_09002640_32B4E0.vtx.inc.c"
 #include "effects/gfx/D_09002680_32B520.vtx.inc.c"

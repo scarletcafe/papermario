@@ -1,8 +1,8 @@
-#include "effects/gfx/D_09000000_3DEE60.png.inc.c"
-#include "effects/gfx/D_09001000_3DFE60.png.inc.c"
-#include "effects/gfx/D_09001080_3DFEE0.png.inc.c"
-#include "effects/gfx/D_09001100_3DFF60.png.inc.c"
-#include "effects/gfx/D_09001180_3DFFE0.png.inc.c"
+#include "effects/gfx/effect__72_SmallParticles_Shimmer.png.inc.c"
+#include "effects/gfx/effect__72_SmallParticles_Circle.png.inc.c"
+#include "effects/gfx/effect__72_SmallParticles_Snow.png.inc.c"
+#include "effects/gfx/effect__72_SmallParticles_Noise.png.inc.c"
+#include "effects/gfx/effect__72_SmallParticles_Star.png.inc.c"
 
 #include "effects/gfx/D_09001580_3E03E0.gfx.inc.c"
 #include "effects/gfx/D_09001670_3E04D0.gfx.inc.c"

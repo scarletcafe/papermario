@@ -1,6 +1,6 @@
-#include "effects/gfx/D_09000000_3593B0.png.inc.c"
-#include "effects/gfx/D_09000200_3595B0.png.inc.c"
-#include "effects/gfx/D_09000600_3599B0.png.inc.c"
+#include "effects/gfx/effect__ShockWave_Detail.png.inc.c"
+#include "effects/gfx/effect__ShockWave_Main.png.inc.c"
+#include "effects/gfx/effect__ShockWave_VerticalVariation.png.inc.c"
 
 #include "effects/gfx/D_09000800_359BB0.vtx.inc.c"
 

@@ -1,6 +1,6 @@
-#include "effects/gfx/D_09000000_37ADD0.png.inc.c"
-#include "effects/gfx/D_09000800_37B5D0.png.inc.c"
-#include "effects/gfx/D_09000C00_37B9D0.png.inc.c"
+#include "effects/gfx/effect__3C_37ADD0.png.inc.c"
+#include "effects/gfx/effect__3C_LightOrb.png.inc.c"
+#include "effects/gfx/effect__3C_LightShining.png.inc.c"
 
 #include "effects/gfx/D_09001400_37C1D0.gfx.inc.c"
 #include "effects/gfx/D_090014B8_37C288.gfx.inc.c"

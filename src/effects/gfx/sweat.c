@@ -1,5 +1,5 @@
-#include "effects/gfx/D_09000000_35C550.png.inc.c"
-#include "effects/gfx/D_09000080_35C5D0.png.inc.c"
+#include "effects/gfx/effect__28_Sweat_Small.png.inc.c"
+#include "effects/gfx/effect__28_Sweat_Large.png.inc.c"
 
 #include "effects/gfx/D_09000180_35C6D0.vtx.inc.c"
 #include "effects/gfx/D_090001C0_35C710.vtx.inc.c"

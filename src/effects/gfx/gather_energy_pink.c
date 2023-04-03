@@ -1,6 +1,6 @@
-#include "effects/gfx/D_09000000_33BBD0.png.inc.c"
-#include "effects/gfx/D_09000200_33BDD0.png.inc.c"
-#include "effects/gfx/D_09000400_33BFD0.png.inc.c"
+#include "effects/gfx/effect__13_GatherEnergy_Detail.png.inc.c"
+#include "effects/gfx/effect__13_GatherEnergy_Mask.png.inc.c"
+#include "effects/gfx/effect__13_GatherEnergy_Field.png.inc.c"
 
 #include "effects/gfx/D_09000C00_33C7D0.vtx.inc.c"
 

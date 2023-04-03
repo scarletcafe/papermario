@@ -236,20 +236,20 @@ segments:
       type: .data
       name: big_smoke_puff
       subsegments:
-      - [0x34F1D0, ci4,     D_09000000_326410, 32, 32]
-      - [0x34F3D0, palette, D_09000000_326410]
-      - [0x34F3F0, ci4,     D_09000220_326630, 32, 32]
-      - [0x34F5F0, palette, D_09000220_326630]
-      - [0x34F610, ci4,     D_09000440_326850, 32, 32]
-      - [0x34F810, palette, D_09000440_326850]
-      - [0x34F830, ci4,     D_09000660_326A70, 32, 32]
-      - [0x34FA30, palette, D_09000660_326A70]
-      - [0x34FA50, ci4,     D_09000880_326C90, 32, 32]
-      - [0x34FC50, palette, D_09000880_326C90]
-      - [0x34FC70, ci4,     D_09000AA0_326EB0, 32, 32]
-      - [0x34FE70, palette, D_09000AA0_326EB0]
-      - [0x34FE90, ci4,     D_09000CC0_3270D0, 32, 32]
-      - [0x350090, palette, D_09000CC0_3270D0]
+      - [0x34F1D0, ci4,     effect__01_BigSmokePuff_1, 32, 32]
+      - [0x34F3D0, palette, effect__01_BigSmokePuff_1]
+      - [0x34F3F0, ci4,     effect__01_BigSmokePuff_2, 32, 32]
+      - [0x34F5F0, palette, effect__01_BigSmokePuff_2]
+      - [0x34F610, ci4,     effect__01_BigSmokePuff_3, 32, 32]
+      - [0x34F810, palette, effect__01_BigSmokePuff_3]
+      - [0x34F830, ci4,     effect__01_BigSmokePuff_4, 32, 32]
+      - [0x34FA30, palette, effect__01_BigSmokePuff_4]
+      - [0x34FA50, ci4,     effect__01_BigSmokePuff_5, 32, 32]
+      - [0x34FC50, palette, effect__01_BigSmokePuff_5]
+      - [0x34FC70, ci4,     effect__01_BigSmokePuff_6, 32, 32]
+      - [0x34FE70, palette, effect__01_BigSmokePuff_6]
+      - [0x34FE90, ci4,     effect__01_BigSmokePuff_7, 32, 32]
+      - [0x350090, palette, effect__01_BigSmokePuff_7]
       - [0x3500B0, vtx, D_09000EE0_3272F0]
       - [0x3500F0, gfx, D_09000F20_327330]
       - [0x350158, gfx, D_09000F88_327398]
@@ -287,9 +287,9 @@ segments:
       type: .data
       name: landing_dust
       subsegments:
-      - [0x351C60, i4, D_09000000_328EA0, 256, 32]
-      - [0x352C60, i4, D_09001000_329EA0, 176, 24]
-      - [0x3534A0, i4, D_09001840_32A6E0, 224, 32]
+      - [0x351C60, i4, effect__Dust_Large, 256, 32]
+      - [0x352C60, i4, effect__Dust_Small, 176, 24]
+      - [0x3534A0, i4, effect__Dust_Medium, 224, 32]
       - [0x3542A0, vtx, D_09002640_32B4E0]
       - [0x3542E0, vtx, D_09002680_32B520]
       - [0x354320, vtx, D_090026C0_32B560]
@@ -348,10 +348,10 @@ segments:
       type: .data
       name: flower_splash_trail
       subsegments:
-      - [0x355C80, ci4, D_09000000_32CEC0, 16, 16]
-      - [0x355D00, palette, D_09000000_32CEC0]
-      - [0x355D20, palette, D_09000000_32CEC0.yellow]
-      - [0x355D40, rgba16, D_090000C0_32CF80, 32, 32]
+      - [0x355C80, ci4, effect__Flower_GoldPetal, 16, 16]
+      - [0x355D00, palette, effect__Flower_GoldPetal]
+      - [0x355D20, palette, effect__Flower_GoldPetal.yellow]
+      - [0x355D40, rgba16, effect__Flower, 32, 32]
       - [0x356540, vtx, D_090008C0_32D780]
       - [0x3566B0, vtx, D_09000A30_32D8F0]
       - [0x3566C0, vtx, D_09000A40_32D900]
@@ -394,8 +394,8 @@ segments:
       type: .data
       name: cloud_puff_trail
       subsegments:
-      - [0x357A10, ci4, D_09000000_32EC50, 16, 16]
-      - [0x357A90, palette, D_09000000_32EC50]
+      - [0x357A10, ci4, effect__Cloud, 16, 16]
+      - [0x357A90, palette, effect__Cloud]
       - [0x357AB0, vtx, D_090000A0_32ECF0]
       - [0x357AF0, gfx, D_090000E0_32ED30]
       - [0x357BC8, gfx, D_090001B8_32EE08]
@@ -426,7 +426,7 @@ segments:
       type: .data
       name: footprint
       subsegments:
-      - [0x358910, i4, D_09000000_32FB50, 32, 32]
+      - [0x358910, i4, effect__0C_Footprint, 32, 32]
       - [0x358B10, vtx, D_09000200_32FD50]
       - [0x358B50, gfx, D_09000240_32FD90]
       - [0x358BE8]
@@ -449,8 +449,8 @@ segments:
       type: .data
       name: floating_flower
       subsegments:
-      - [0x359220, ci4, D_09000000_330460, 16, 16]
-      - [0x3592A0, palette, D_09000000_330460]
+      - [0x359220, ci4, effect__0D_Flower_FloatingPetal, 16, 16]
+      - [0x3592A0, palette, effect__0D_Flower_FloatingPetal]
       - [0x3592C0, vtx, D_090000A0_330500]
       - [0x359390, vtx, D_09000170_3305D0]
       - [0x359450, vtx, D_09000230_330690]
@@ -476,8 +476,8 @@ segments:
       type: .data
       name: snowflake
       subsegments:
-      - [0x359CC0, i4, D_09000000_330F00, 16, 16]
-      - [0x359D40, i4, D_09000080_330F80, 64, 64]
+      - [0x359CC0, i4, effect__0E_SnowPoint, 16, 16]
+      - [0x359D40, i4, effect__0E_SnowFlake, 64, 64]
       - [0x35A540, vtx, D_09000880_331780]
       - [0x35A580, vtx, D_090008C0_3317C0]
       - [0x35A5C0, gfx, D_09000900_331800]
@@ -503,9 +503,9 @@ segments:
       type: .data
       name: star
       subsegments:
-      - [0x35B460, ia8, D_09000000_3326A0, 64, 64]
-      - [0x35C460, i4, D_09001000_3336A0, 32, 32]
-      - [0x35C660, i4, D_09001200_3338A0, 32, 32]
+      - [0x35B460, ia8, effect__0F_ShootingStar, 64, 64]
+      - [0x35C460, i4, effect__0F_ShootingStar_3336A0, 32, 32]
+      - [0x35C660, i4, effect__0F_ShootingStar_3338A0, 32, 32]
       - [0x35C860, vtx, D_09001400_333AA0]
       - [0x35C900, vtx, D_090014A0_333B40]
       - [0x35C940, vtx, D_090014E0_333B80]
@@ -532,11 +532,11 @@ segments:
       type: .data
       name: emote
       subsegments:
-      - [0x35DA30, i4, D_09000000_334C70, 32, 64]
-      - [0x35DE30, i4, D_09000400_335070, 96, 32]
-      - [0x35E430, i4, D_09000A00_335670, 128, 48]
-      - [0x35F030, i4, D_09001600_336270, 128, 32]
-      - [0x35F830, i4, D_09001E00_336A70, 128, 8]
+      - [0x35DA30, i4, effect__10_Emote_Bubble, 32, 64]
+      - [0x35DE30, i4, effect__10_Emote_Exclaim, 96, 32]
+      - [0x35E430, i4, effect__10_Emote_Question, 128, 48]
+      - [0x35F030, i4, effect__10_Emote_Frustration, 128, 32]
+      - [0x35F830, i4, effect__10_Emote_Waiting, 128, 8]
       - [0x35FA30, vtx, D_09002000_336C70]
       - [0x35FA70, vtx, D_09002040_336CB0]
       - [0x35FAB0, vtx, D_09002080_336CF0]
@@ -572,7 +572,7 @@ segments:
       type: .data
       name: sparkles
       subsegments:
-      - [0x360D80, ia8, D_09000000_337FC0, 176, 22]
+      - [0x360D80, ia8, effect__Sparkles, 176, 22]
       - [0x361CA0, gfx, D_09000F20_338EE0]
       - [0x361D48, vtx, D_09000FC8_338F88]
       - [0x361D88, vtx, D_09001008_338FC8]
@@ -610,7 +610,7 @@ segments:
       type: .data
       name: shape_spell
       subsegments:
-      - [0x362D20, i4, D_09000000_339F60, 32, 256]
+      - [0x362D20, i4, effect__12_ShapeSpell, 32, 256]
       - [0x363D20, vtx, D_09001000_33AF60]
       - [0x363D60, vtx, D_09001040_33AFA0]
       - [0x363DA0, gfx, D_09001080_33AFE0]
@@ -640,9 +640,9 @@ segments:
       type: .data
       name: gather_energy_pink
       subsegments:
-      - [0x364990, i4, D_09000000_33BBD0, 64, 16]
-      - [0x364B90, i4, D_09000200_33BDD0, 64, 16]
-      - [0x364D90, i4, D_09000400_33BFD0, 64, 64]
+      - [0x364990, i4, effect__13_GatherEnergy_Detail, 64, 16]
+      - [0x364B90, i4, effect__13_GatherEnergy_Mask, 64, 16]
+      - [0x364D90, i4, effect__13_GatherEnergy_Field, 64, 64]
       - [0x365590, vtx, D_09000C00_33C7D0]
       - [0x365730, gfx, D_09000DA0_33C970]
       - [0x3657B8, gfx, D_09000E28_33C9F8]
@@ -669,7 +669,7 @@ segments:
       type: .data
       name: drop_leaves
       subsegments:
-      - [0x3663D0, ia8, D_09000000_33D610, 32, 128]
+      - [0x3663D0, ia8, effect__Leaf, 32, 128]
       - [0x3673D0, vtx, D_09001000_33E610]
       - [0x367450, vtx, D_09001080_33E690]
       - [0x3674D0, vtx, D_09001100_33E710]
@@ -697,8 +697,8 @@ segments:
       type: .data
       name: dust
       subsegments:
-      - [0x367DC0, i4, D_09000000_33F000, 32, 96]
-      - [0x3683C0, i4, D_09000600_33F600, 32, 96]
+      - [0x367DC0, i4, effect__15_AncientDust_Detail, 32, 96]
+      - [0x3683C0, i4, effect__15_AncientDust_Main, 32, 96]
       - [0x3689C0, vtx, D_09000C00_33FC00]
       - [0x368A00, vtx, D_09000C40_33FC40]
       - [0x368A40, vtx, D_09000C80_33FC80]
@@ -727,7 +727,7 @@ segments:
       type: .data
       name: shattering_stones
       subsegments:
-      - [0x369640, ia8, D_09000000_340880, 32, 96]
+      - [0x369640, ia8, effect__16_ShatteringStones, 32, 96]
       - [0x36A240, gfx, D_09000C00_341480]
       - [0x36A2E8, vtx, D_09000CA8_341528]
       - [0x36A368, vtx, D_09000D28_3415A8]
@@ -775,7 +775,7 @@ segments:
       type: .data
       name: damage_stars
       subsegments:
-      - [0x36BE00, i4, D_09000000_343040, 32, 64]
+      - [0x36BE00, i4, effect__SolidStar, 32, 64]
       - [0x36C200, vtx, D_09000400_343440]
       - [0x36C240, vtx, D_09000440_343480]
       - [0x36C280, vtx, D_09000480_3434C0]
@@ -803,10 +803,10 @@ segments:
       type: .data
       name: explosion
       subsegments:
-      - [0x36CD30, i4, D_09000000_343F70, 32, 32]
-      - [0x36CF30, i4, D_09000200_344170, 32, 32]
-      - [0x36D130, i4, D_09000400_344370, 32, 32]
-      - [0x36D330, i4, D_09000600_344570, 32, 32]
+      - [0x36CD30, i4, effect__19_Explosion_Shockwave, 32, 32]
+      - [0x36CF30, i4, effect__19_Explosion_SolidCircle, 32, 32]
+      - [0x36D130, i4, effect__19_Explosion_RoughEdges, 32, 32]
+      - [0x36D330, i4, effect__19_Explosion_RougherEdges, 32, 32]
       - [0x36D530, vtx, D_09000800_344770]
       - [0x36D570, gfx, D_09000840_3447B0]
       - [0x36D620, gfx, D_090008F0_344860]
@@ -834,7 +834,7 @@ segments:
       type: .data
       name: lens_flare
       subsegments:
-      - [0x36DFA0, i4, D_09000000_3451E0, 32, 32]
+      - [0x36DFA0, i4, effect__1A_LightShimmer, 32, 32]
       - [0x36E1A0, vtx, D_09000200_3453E0]
       - [0x36E1E0, gfx, D_09000240_345420]
       - [0x36E280, gfx, D_090002E0_3454C0]
@@ -857,11 +857,11 @@ segments:
       type: .data
       name: got_item_outline
       subsegments:
-      - [0x36E900, ia8, D_09000000_345B40, 128, 32]
+      - [0x36E900, ia8, effect__1B_GotItem, 128, 32]
       - [0x36F900, ia8, D_09001000_346B40, 128, 32]
       - [0x370900, ia8, D_09002000_347B40, 128, 32]
       - [0x371900, ia8, D_09003000_348B40, 128, 32]
-      - [0x372900, ia8, D_09004000_349B40, 128, 32]
+      - [0x372900, ia8, effect__1B_GotItem_349B40, 128, 32]
       - [0x373900, ia8, D_09005000_34AB40, 128, 32]
       - [0x374900, ia8, D_09006000_34BB40, 128, 32]
       - [0x375900, ia8, D_09007000_34CB40, 128, 32]
@@ -891,7 +891,7 @@ segments:
       type: .data
       name: spiky_white_aura
       subsegments:
-      - [0x377530, i4, D_09000000_34E770, 64, 32]
+      - [0x377530, i4, effect__1C_SpikyWhiteAura, 64, 32]
       - [0x377930, vtx, D_09000400_34EB70]
       - [0x377970, gfx, D_09000440_34EBB0]
       - [0x377A18, gfx, D_090004E8_34EC58]
@@ -923,19 +923,19 @@ segments:
       type: .data
       name: damage_indicator
       subsegments:
-      - [0x378FE0, i4, D_09000000_350220, 32, 32]
-      - [0x3791E0, i4, D_09000200_350420, 32, 32]
-      - [0x3793E0, i4, D_09000400_350620, 32, 32]
-      - [0x3795E0, i4, D_09000600_350820, 32, 32]
-      - [0x3797E0, i4, D_09000800_350A20, 32, 32]
-      - [0x3799E0, i4, D_09000A00_350C20, 32, 32]
-      - [0x379BE0, i4, D_09000C00_350E20, 32, 32]
-      - [0x379DE0, i4, D_09000E00_351020, 32, 32]
-      - [0x379FE0, i4, D_09001000_351220, 32, 32]
-      - [0x37A1E0, i4, D_09001200_351420, 32, 32]
-      - [0x37A3E0, i4, D_09001400_351620, 32, 32]
-      - [0x37A5E0, i4, D_09001600_351820, 32, 32]
-      - [0x37A7E0, i4, D_09001800_351A20, 32, 32]
+      - [0x378FE0, i4, effect__1E_ShowDamage_Plus, 32, 32]
+      - [0x3791E0, i4, effect__1E_ShowDamage_Minus, 32, 32]
+      - [0x3793E0, i4, effect__1E_ShowDamage_9, 32, 32]
+      - [0x3795E0, i4, effect__1E_ShowDamage_8, 32, 32]
+      - [0x3797E0, i4, effect__1E_ShowDamage_7, 32, 32]
+      - [0x3799E0, i4, effect__1E_ShowDamage_6, 32, 32]
+      - [0x379BE0, i4, effect__1E_ShowDamage_5, 32, 32]
+      - [0x379DE0, i4, effect__1E_ShowDamage_4, 32, 32]
+      - [0x379FE0, i4, effect__1E_ShowDamage_3, 32, 32]
+      - [0x37A1E0, i4, effect__1E_ShowDamage_2, 32, 32]
+      - [0x37A3E0, i4, effect__1E_ShowDamage_1, 32, 32]
+      - [0x37A5E0, i4, effect__1E_ShowDamage_0, 32, 32]
+      - [0x37A7E0, i4, effect__1E_ShowDamage_Star, 32, 32]
       - [0x37A9E0, i4, D_09001A00_351C20, 32, 32]
       - [0x37ABE0, vtx, D_09001C00_351E20]
       - [0x37ABF0, vtx, D_09001C10_351E30]
@@ -986,7 +986,7 @@ segments:
       type: .data
       name: purple_ring
       subsegments:
-      - [0x37BAA0, i4, D_09000000_352CE0, 64, 16]
+      - [0x37BAA0, i4, effect__1F_PurpleRing_Detail, 64, 16]
       - [0x37BCA0, gfx, D_09000200_352EE0]
       - [0x37BD48, vtx, D_090002A8_352F88]
       - [0x37BE08, vtx, D_09000368_353048]
@@ -1013,9 +1013,9 @@ segments:
       type: .data
       name: flame
       subsegments:
-      - [0x37C970, i4, D_09000000_353BB0, 32, 32]
+      - [0x37C970, i4, effect__20_Fire_Detail, 32, 32]
       - [0x37CB70, i4, D_09000200_353DB0, 32, 32]
-      - [0x37CD70, i4, D_09000400_353FB0, 32, 32]
+      - [0x37CD70, i4, effect__20_Fire_Main, 32, 32]
       - [0x37CF70, i4, D_09000600_3541B0, 32, 32]
       - [0x37D170, gfx, D_09000800_3543B0]
       - [0x37D228, vtx, D_090008B8_354468]
@@ -1057,8 +1057,8 @@ segments:
       type: .data
       name: rising_bubble
       subsegments:
-      - [0x37F2F0, i4, D_09000000_356530, 16, 16]
-      - [0x37F370, i4, D_09000080_3565B0, 16, 16]
+      - [0x37F2F0, i4, effect__23_RisingBubble_356530, 16, 16]
+      - [0x37F370, i4, effect__23_RisingBubble_3565B0, 16, 16]
       - [0x37F3F0, vtx, D_09000100_356630]
       - [0x37F430, vtx, D_09000140_356670]
       - [0x37F470, vtx, D_09000180_3566B0]
@@ -1088,7 +1088,7 @@ segments:
       type: .data
       name: ring_blast
       subsegments:
-      - [0x380160, i4, D_09000000_3573A0, 256, 32]
+      - [0x380160, i4, effect__24_RingBlast, 256, 32]
       - [0x381160, vtx, D_09001000_3583A0]
       - [0x3811A0, gfx, D_09001040_3583E0]
       - [0x381258, gfx, D_090010F8_358498]
@@ -1112,9 +1112,9 @@ segments:
       type: .data
       name: shockwave
       subsegments:
-      - [0x382170, i4, D_09000000_3593B0, 32, 32]
-      - [0x382370, ia4, D_09000200_3595B0, 64, 32]
-      - [0x382770, i4, D_09000600_3599B0, 32, 32]
+      - [0x382170, i4, effect__ShockWave_Detail, 32, 32]
+      - [0x382370, ia4, effect__ShockWave_Main, 64, 32]
+      - [0x382770, i4, effect__ShockWave_VerticalVariation, 32, 32]
       - [0x382970, vtx, D_09000800_359BB0]
       - [0x382AB0, gfx, D_09000940_359CF0]
       - [0x382B10, gfx, D_090009A0_359D50]
@@ -1139,20 +1139,20 @@ segments:
       type: .data
       name: music_note
       subsegments:
-      - [0x3833A0, i8, D_09000000_35A5E0, 8, 32]
-      - [0x3834A0, i8, D_09000100_35A6E0, 8, 32]
-      - [0x3835A0, i8, D_09000200_35A7E0, 8, 32]
-      - [0x3836A0, i8, D_09000300_35A8E0, 8, 32]
-      - [0x3837A0, i8, D_09000400_35A9E0, 8, 32]
-      - [0x3838A0, i8, D_09000500_35AAE0, 8, 32]
-      - [0x3839A0, i8, D_09000600_35ABE0, 8, 32]
-      - [0x383AA0, i4, D_09000700_35ACE0, 16, 32]
-      - [0x383BA0, i4, D_09000800_35ADE0, 16, 32]
-      - [0x383CA0, i4, D_09000900_35AEE0, 16, 32]
-      - [0x383DA0, i4, D_09000A00_35AFE0, 16, 32]
-      - [0x383EA0, i4, D_09000B00_35B0E0, 16, 32]
-      - [0x383FA0, i4, D_09000C00_35B1E0, 16, 32]
-      - [0x3840A0, i4, D_09000D00_35B2E0, 16, 32]
+      - [0x3833A0, i8, effect__26_MusicNote_DoubleBeam, 8, 32]
+      - [0x3834A0, i8, effect__26_MusicNote_SingleBeam, 8, 32]
+      - [0x3835A0, i8, effect__26_MusicNote_Eighth, 8, 32]
+      - [0x3836A0, i8, effect__26_MusicNote_DottedQuarter, 8, 32]
+      - [0x3837A0, i8, effect__26_MusicNote_Quarter, 8, 32]
+      - [0x3838A0, i8, effect__26_MusicNote_DottedHalf, 8, 32]
+      - [0x3839A0, i8, effect__26_MusicNote_Half, 8, 32]
+      - [0x383AA0, i4, effect__26_MusicNote_DoubleBeam_Glow, 16, 32]
+      - [0x383BA0, i4, effect__26_MusicNote_SingleBeam_Glow, 16, 32]
+      - [0x383CA0, i4, effect__26_MusicNote_Eighth_Glow, 16, 32]
+      - [0x383DA0, i4, effect__26_MusicNote_DottedQuarter_Glow, 16, 32]
+      - [0x383EA0, i4, effect__26_MusicNote_Quarter_Glow, 16, 32]
+      - [0x383FA0, i4, effect__26_MusicNote_DottedHalf_Glow, 16, 32]
+      - [0x3840A0, i4, effect__26_MusicNote_Half_Glow, 16, 32]
       - [0x3841A0, vtx, D_09000E00_35B3E0]
       - [0x384360, gfx, D_09000FC0_35B5A0]
       - [0x3843D8, gfx, D_09001038_35B618]
@@ -1189,8 +1189,8 @@ segments:
       type: .data
       name: sweat
       subsegments:
-      - [0x385310, i4, D_09000000_35C550, 16, 16]
-      - [0x385390, i4, D_09000080_35C5D0, 32, 16]
+      - [0x385310, i4, effect__28_Sweat_Small, 16, 16]
+      - [0x385390, i4, effect__28_Sweat_Large, 32, 16]
       - [0x385490, vtx, D_09000180_35C6D0]
       - [0x3854D0, vtx, D_090001C0_35C710]
       - [0x385510, gfx, D_09000200_35C750]
@@ -1216,9 +1216,9 @@ segments:
       type: .data
       name: sleep_bubble
       subsegments:
-      - [0x3862D0, i4, D_09000000_35D510, 16, 16]
-      - [0x386350, i4, D_09000080_35D590, 16, 16]
-      - [0x3863D0, i4, D_09000100_35D610, 16, 16]
+      - [0x3862D0, i4, effect__29_SleepBubble_35D510, 16, 16]
+      - [0x386350, i4, effect__29_SleepBubble_35D590, 16, 16]
+      - [0x3863D0, i4, effect__29_SleepBubble_35D610, 16, 16]
       - [0x386450, vtx, D_09000180_35D690]
       - [0x3865B0, gfx, D_090002E0_35D7F0]
       - [0x386660, gfx, D_09000390_35D8A0]
@@ -1250,7 +1250,7 @@ segments:
       type: .data
       name: falling_leaves
       subsegments:
-      - [0x387EA0, ia8, D_09000000_35F0E0, 32, 128]
+      - [0x387EA0, ia8, effect__2C_LeavesFalling, 32, 128]
       - [0x388EA0, vtx, D_09001000_3600E0]
       - [0x388FA0, gfx, D_09001100_3601E0]
       - [0x389050, gfx, D_090011B0_360290]
@@ -1274,7 +1274,7 @@ segments:
       type: .data
       name: stars_spread
       subsegments:
-      - [0x3897F0, i4, D_09000000_360A30, 32, 64]
+      - [0x3897F0, i4, effect__2D_Star, 32, 64]
       - [0x389BF0, vtx, D_09000400_360E30]
       - [0x389C30, gfx, D_09000440_360E70]
       - [0x389CE0, gfx, D_090004F0_360F20]
@@ -1297,7 +1297,7 @@ segments:
       type: .data
       name: steam_burst
       subsegments:
-      - [0x38A430, i4, D_09000000_361670, 224, 32]
+      - [0x38A430, i4, effect__2E_SmokePuff, 224, 32]
       - [0x38B230, gfx, D_09000E00_362470]
       - [0x38B320, vtx, D_09000EF0_362560]
       - [0x38B360, gfx, D_09000F30_3625A0]
@@ -1320,7 +1320,7 @@ segments:
       type: .data
       name: stars_orbiting
       subsegments:
-      - [0x38BA10, i4, D_09000000_362C50, 32, 64]
+      - [0x38BA10, i4, effect__2F_Star, 32, 64]
       - [0x38BE10, vtx, D_09000400_363050]
       - [0x38BE50, gfx, D_09000440_363090]
       - [0x38BF00, gfx, D_090004F0_363140]
@@ -1343,8 +1343,8 @@ segments:
       type: .data
       name: big_snowflakes
       subsegments:
-      - [0x38C680, i4, D_09000000_3638C0, 16, 16]
-      - [0x38C700, i4, D_09000080_363940, 64, 64]
+      - [0x38C680, i4, effect__30_SnowPoint, 16, 16]
+      - [0x38C700, i4, effect__30_SnowFlake, 64, 64]
       - [0x38CF00, vtx, D_09000880_364140]
       - [0x38CF40, vtx, D_090008C0_364180]
       - [0x38CF80, gfx, D_09000900_3641C0]
@@ -1370,7 +1370,7 @@ segments:
       type: .data
       name: debuff
       subsegments:
-      - [0x38D9C0, i4, D_09000000_364C00, 32, 32]
+      - [0x38D9C0, i4, effect__31_Debuff_Detail, 32, 32]
       - [0x38DBC0, vtx, D_09000200_364E00]
       - [0x38DC00, gfx, D_09000240_364E40]
       - [0x38DCA8, gfx, D_090002E8_364EE8]
@@ -1394,8 +1394,8 @@ segments:
       type: .data
       name: green_impact
       subsegments:
-      - [0x38E770, i4, D_09000000_3659B0, 32, 32]
-      - [0x38E970, i4, D_09000200_365BB0, 32, 32]
+      - [0x38E770, i4, effect__32_GreenImpact_Main, 32, 32]
+      - [0x38E970, i4, effect__32_GreenImpact_VerticalVariation, 32, 32]
       - [0x38EB70, vtx, D_09000400_365DB0]
       - [0x38ECB0, gfx, D_09000540_365EF0]
       - [0x38ED10, gfx, D_090005A0_365F50]
@@ -1418,15 +1418,15 @@ segments:
       type: .data
       name: radial_shimmer
       subsegments:
-      - [0x38FB20, i4, D_09000000_366D60, 64, 16]
-      - [0x38FD20, i4, D_09000200_366F60, 64, 16]
-      - [0x38FF20, i4, D_09000400_367160, 64, 64]
-      - [0x390720, i4, D_09000C00_367960, 32, 32]
-      - [0x390920, i4, D_09000E00_367B60, 64, 64]
-      - [0x391120, i4, D_09001600_368360, 64, 64]
-      - [0x391920, i4, D_09001E00_368B60, 64, 64]
-      - [0x392120, i4, D_09002600_369360, 64, 64]
-      - [0x392920, i4, D_09002E00_369B60, 32, 32]
+      - [0x38FB20, i4, effect__33_Detail, 64, 16]
+      - [0x38FD20, i4, effect__33_SnakingWave, 64, 16]
+      - [0x38FF20, i4, effect__33_EnergyPoints, 64, 64]
+      - [0x390720, i4, effect__33_Streak, 32, 32]
+      - [0x390920, i4, effect__33_SpikyWave, 64, 64]
+      - [0x391120, i4, effect__33_WavyWaves, 64, 64]
+      - [0x391920, i4, effect__33_EnergyPointsWithMist, 64, 64]
+      - [0x392120, i4, effect__33_Rays, 64, 64]
+      - [0x392920, i4, effect__33_Block, 32, 32]
       - [0x392B20, vtx, D_09003000_369D60]
       - [0x392CC0, vtx, D_090031A0_369F00]
       - [0x392E60, gfx, D_09003340_36A0A0]
@@ -1459,11 +1459,11 @@ segments:
       type: .data
       name: ending_decals
       subsegments:
-      - [0x393CA0, i8, D_09000000_36AEE0, 64, 64]
-      - [0x394CA0, ci4, D_09001000_36BEE0, 64, 32]
-      - [0x3950A0, ci4, D_09001400_36C2E0, 64, 32, D_09001000_36BEE0]
-      - [0x3954A0, ci4, D_09001800_36C6E0, 64, 32, D_09001000_36BEE0]
-      - [0x3958A0, palette, D_09001000_36BEE0]
+      - [0x393CA0, i8, effect__34_Ending_Bubble, 64, 64]
+      - [0x394CA0, ci4, effect__34_Ending_Cloud_1, 64, 32]
+      - [0x3950A0, ci4, effect__34_Ending_Cloud_2, 64, 32, effect__34_Ending_Cloud_1]
+      - [0x3954A0, ci4, effect__34_Ending_Cloud_3, 64, 32, effect__34_Ending_Cloud_1]
+      - [0x3958A0, palette, effect__34_Ending_Cloud_1]
       - [0x3958C0] # padding
       - [0x395AA0, vtx, D_09001E00_36CCE0]
       - [0x395AE0, gfx, D_09001E40_36CD20]
@@ -1493,7 +1493,7 @@ segments:
       type: .data
       name: light_rays
       subsegments:
-      - [0x396D50, i4, D_09000000_36DF90, 16, 16]
+      - [0x396D50, i4, effect__35_LightPoint, 16, 16]
       - [0x396DD0, vtx, D_09000080_36E010]
       - [0x396E00, gfx, D_090000B0_36E040]
       - [0x396E20, vtx, D_090000D0_36E060]
@@ -1519,7 +1519,7 @@ segments:
       type: .data
       name: lightning
       subsegments:
-      - [0x397B20, i8, D_09000000_36ED60, 128, 32]
+      - [0x397B20, i8, effect__36_Lightning, 128, 32]
       - [0x398B20, vtx, D_09001000_36FD60]
       - [0x398D00, vtx, D_090011E0_36FF40]
       - [0x398E40, vtx, D_09001320_370080]
@@ -1577,8 +1577,8 @@ segments:
       type: .data
       name: fire_breath
       subsegments:
-      - [0x39C1A0, i4, D_09000000_3733E0, 128, 32]
-      - [0x39C9A0, i4, D_09000800_373BE0, 32, 32]
+      - [0x39C1A0, i4, effect__37_FireParticle, 128, 32]
+      - [0x39C9A0, i4, effect__37_FireBreath_373BE0, 32, 32]
       - [0x39CBA0, gfx, D_09000A00_373DE0]
       - [0x39CC88, vtx, D_09000AE8_373EC8]
       - [0x39CCD8, vtx, D_09000B38_373F18]
@@ -1615,8 +1615,8 @@ segments:
       type: .data
       name: energy_shockwave
       subsegments:
-      - [0x39E2D0, i4, D_09000000_375510, 64, 64]
-      - [0x39EAD0, i4, D_09000800_375D10, 32, 32]
+      - [0x39E2D0, i4, effect__39_EnergyShockwave_Wide, 64, 64]
+      - [0x39EAD0, i4, effect__39_EnergyShockwave_Narrow, 32, 32]
       - [0x39ECD0, vtx, D_09000A00_375F10]
       - [0x39EED0, vtx, D_09000C00_376110]
       - [0x39F090, gfx, D_09000DC0_3762D0]
@@ -1649,11 +1649,11 @@ segments:
       type: .data
       name: aura
       subsegments:
-      - [0x3A0D40, i4, D_09000000_377F80, 32, 64]
-      - [0x3A1140, i8, D_09000400_378380, 32, 32]
-      - [0x3A1540, i4, D_09000800_378780, 64, 64]
-      - [0x3A1D40, i4, D_09001000_378F80, 64, 64]
-      - [0x3A2540, i4, D_09001800_379780, 64, 64]
+      - [0x3A0D40, i4, effect__3B_Aura_Noise, 32, 64]
+      - [0x3A1140, i8, effect__3B_Aura_StarSpirit, 32, 32]
+      - [0x3A1540, i4, effect__3B_Aura_Bowser, 64, 64]
+      - [0x3A1D40, i4, effect__3B_Aura_PoweredUp, 64, 64]
+      - [0x3A2540, i4, effect__3B_Aura_Detail, 64, 64]
       - [0x3A2D40, gfx, D_09002000_379F80]
       - [0x3A2E28, gfx, D_090020E8_37A068]
       - [0x3A2F10, gfx, D_090021D0_37A150]
@@ -1692,9 +1692,9 @@ segments:
       type: .data
       name: bulb_glow
       subsegments:
-      - [0x3A3B90, rgba16, D_09000000_37ADD0, 32, 32]
-      - [0x3A4390, i8, D_09000800_37B5D0, 32, 32]
-      - [0x3A4790, i4, D_09000C00_37B9D0, 64, 64]
+      - [0x3A3B90, rgba16, effect__3C_37ADD0, 32, 32]
+      - [0x3A4390, i8, effect__3C_LightOrb, 32, 32]
+      - [0x3A4790, i4, effect__3C_LightShining, 64, 64]
       - [0x3A4F90, gfx, D_09001400_37C1D0]
       - [0x3A5048, gfx, D_090014B8_37C288]
       - [0x3A5100, gfx, D_09001570_37C340]
@@ -1720,7 +1720,7 @@ segments:
       type: .data
       name: effect_3D
       subsegments:
-      - [0x3A5F40, i4, D_09000000_37D180, 32, 32]
+      - [0x3A5F40, i4, effect__3D_Water, 32, 32]
       - [0x3A6140, vtx, D_09000200_37D380]
       - [0x3A6180, gfx, D_09000240_37D3C0]
       - [0x3A6228, gfx, D_090002E8_37D468]
@@ -1744,15 +1744,15 @@ segments:
       type: .data
       name: blast
       subsegments:
-      - [0x3A6790, i4, D_09000000_37D9D0, 32, 32]
-      - [0x3A6990, i4, D_09000200_37DBD0, 32, 32]
-      - [0x3A6B90, i4, D_09000400_37DDD0, 32, 32]
-      - [0x3A6D90, i4, D_09000600_37DFD0, 32, 32]
-      - [0x3A6F90, i4, D_09000800_37E1D0, 32, 32]
-      - [0x3A7190, i4, D_09000A00_37E3D0, 32, 32]
-      - [0x3A7390, i4, D_09000C00_37E5D0, 32, 32]
-      - [0x3A7590, i4, D_09000E00_37E7D0, 32, 32]
-      - [0x3A7790, i4, D_09001000_37E9D0, 32, 32]
+      - [0x3A6790, i4, effect__3E_BlastAftermath_1, 32, 32]
+      - [0x3A6990, i4, effect__3E_BlastAftermath_2, 32, 32]
+      - [0x3A6B90, i4, effect__3E_BlastAftermath_3, 32, 32]
+      - [0x3A6D90, i4, effect__3E_BlastAftermath_4, 32, 32]
+      - [0x3A6F90, i4, effect__3E_BlastAftermath_5, 32, 32]
+      - [0x3A7190, i4, effect__3E_BlastAftermath_6, 32, 32]
+      - [0x3A7390, i4, effect__3E_BlastAftermath_7, 32, 32]
+      - [0x3A7590, i4, effect__3E_BlastAftermath_8, 32, 32]
+      - [0x3A7790, i4, effect__3E_BlastAftermath_9, 32, 32]
       - [0x3A7990, vtx, D_09001200_37EBD0]
       - [0x3A79D0, vtx, D_09001240_37EC10]
       - [0x3A7A50, vtx, D_090012C0_37EC90]
@@ -1795,14 +1795,14 @@ segments:
       type: .data
       name: fire_flower
       subsegments:
-      - [0x3A9160, ci4, D_09000000_3803A0, 32, 32]
-      - [0x3A9360, ci4, D_09000200_3805A0, 32, 32, D_09000000_3803A0]
-      - [0x3A9560, ci4, D_09000400_3807A0, 32, 32, D_09000000_3803A0]
-      - [0x3A9760, ci4, D_09000600_3809A0, 32, 32, D_09000000_3803A0]
-      - [0x3A9960, palette, D_09000000_3803A0]
+      - [0x3A9160, ci4, effect__3F_FireFlower_1, 32, 32]
+      - [0x3A9360, ci4, effect__3F_FireFlower_2, 32, 32, effect__3F_FireFlower_1]
+      - [0x3A9560, ci4, effect__3F_FireFlower_3, 32, 32, effect__3F_FireFlower_1]
+      - [0x3A9760, ci4, effect__3F_FireFlower_4, 32, 32, effect__3F_FireFlower_1]
+      - [0x3A9960, palette, effect__3F_FireFlower_1]
       - [0x3A9980] # padding
-      - [0x3A9B60, ci4, D_09000A00_380DA0, 16, 16]
-      - [0x3A9BE0, palette, D_09000A00_380DA0]
+      - [0x3A9B60, ci4, effect__3F_FireBall, 16, 16]
+      - [0x3A9BE0, palette, effect__3F_FireBall]
       - [0x3A9C00] # padding
       - [0x3A9DE0, vtx, D_09000C80_381020]
       - [0x3A9E20, vtx, D_09000CC0_381060]
@@ -1832,21 +1832,21 @@ segments:
       type: .data
       name: recover
       subsegments:
-      - [0x3AABC0, i8, D_09000000_381E00, 16, 32]
-      - [0x3AADC0, i8, D_09000200_382000, 16, 32]
-      - [0x3AAFC0, i8, D_09000400_382200, 16, 32]
-      - [0x3AB1C0, i8, D_09000600_382400, 16, 32]
-      - [0x3AB3C0, i8, D_09000800_382600, 16, 32]
-      - [0x3AB5C0, i8, D_09000A00_382800, 16, 32]
-      - [0x3AB7C0, i8, D_09000C00_382A00, 16, 32]
-      - [0x3AB9C0, i8, D_09000E00_382C00, 16, 32]
-      - [0x3ABBC0, i8, D_09001000_382E00, 16, 32]
-      - [0x3ABDC0, i8, D_09001200_383000, 16, 32]
-      - [0x3ABFC0, i8, D_09001400_383200, 16, 32]
-      - [0x3AC1C0, i8, D_09001600_383400, 16, 32]
-      - [0x3AC3C0, rgba16, D_09001800_383600, 32, 32]
-      - [0x3ACBC0, rgba16, D_09002000_383E00, 32, 32]
-      - [0x3AD3C0, rgba16, D_09002800_384600, 32, 32]
+      - [0x3AABC0, i8, effect__40_Recover_Plus, 16, 32]
+      - [0x3AADC0, i8, effect__40_Recover_Minus, 16, 32]
+      - [0x3AAFC0, i8, effect__40_Recover_9, 16, 32]
+      - [0x3AB1C0, i8, effect__40_Recover_8, 16, 32]
+      - [0x3AB3C0, i8, effect__40_Recover_7, 16, 32]
+      - [0x3AB5C0, i8, effect__40_Recover_6, 16, 32]
+      - [0x3AB7C0, i8, effect__40_Recover_5, 16, 32]
+      - [0x3AB9C0, i8, effect__40_Recover_4, 16, 32]
+      - [0x3ABBC0, i8, effect__40_Recover_3, 16, 32]
+      - [0x3ABDC0, i8, effect__40_Recover_2, 16, 32]
+      - [0x3ABFC0, i8, effect__40_Recover_1, 16, 32]
+      - [0x3AC1C0, i8, effect__40_Recover_0, 16, 32]
+      - [0x3AC3C0, rgba16, effect__40_Recover_Heart, 32, 32]
+      - [0x3ACBC0, rgba16, effect__40_Recover_PoisonHeart, 32, 32]
+      - [0x3AD3C0, rgba16, effect__40_Recover_Flower, 32, 32]
       - [0x3ADBC0, vtx, D_09003000_384E00]
       - [0x3ADC00, vtx, D_09003040_384E40]
       - [0x3ADC40, vtx, D_09003080_384E80]
@@ -1898,19 +1898,19 @@ segments:
       type: .data
       name: disable_x
       subsegments:
-      - [0x3AF170, i4, D_09000000_3863B0, 32, 32]
-      - [0x3AF370, i4, D_09000200_3865B0, 32, 32]
-      - [0x3AF570, i4, D_09000400_3867B0, 32, 32]
-      - [0x3AF770, i4, D_09000600_3869B0, 32, 32]
-      - [0x3AF970, i4, D_09000800_386BB0, 32, 32]
-      - [0x3AFB70, i4, D_09000A00_386DB0, 32, 32]
-      - [0x3AFD70, i4, D_09000C00_386FB0, 32, 32]
-      - [0x3AFF70, i4, D_09000E00_3871B0, 32, 32]
-      - [0x3B0170, i4, D_09001000_3873B0, 32, 32]
-      - [0x3B0370, i4, D_09001200_3875B0, 32, 32]
-      - [0x3B0570, i4, D_09001400_3877B0, 32, 32]
-      - [0x3B0770, i4, D_09001600_3879B0, 32, 32]
-      - [0x3B0970, rgba16, D_09001800_387BB0, 32, 32]
+      - [0x3AF170, i4, effect__41_Disabled_Minus, 32, 32]
+      - [0x3AF370, i4, effect__41_Disabled_Plus, 32, 32]
+      - [0x3AF570, i4, effect__41_Disabled_9, 32, 32]
+      - [0x3AF770, i4, effect__41_Disabled_8, 32, 32]
+      - [0x3AF970, i4, effect__41_Disabled_7, 32, 32]
+      - [0x3AFB70, i4, effect__41_Disabled_6, 32, 32]
+      - [0x3AFD70, i4, effect__41_Disabled_5, 32, 32]
+      - [0x3AFF70, i4, effect__41_Disabled_4, 32, 32]
+      - [0x3B0170, i4, effect__41_Disabled_3, 32, 32]
+      - [0x3B0370, i4, effect__41_Disabled_2, 32, 32]
+      - [0x3B0570, i4, effect__41_Disabled_1, 32, 32]
+      - [0x3B0770, i4, effect__41_Disabled_0, 32, 32]
+      - [0x3B0970, rgba16, effect__41_Disabled_Cross, 32, 32]
       - [0x3B1170, vtx, D_09002000_3883B0]
       - [0x3B11B0, vtx, D_09002040_3883F0]
       - [0x3B11F0, vtx, D_09002080_388430]
@@ -1961,7 +1961,7 @@ segments:
       type: .data
       name: firework
       subsegments:
-      - [0x3B3110, i4, D_09000000_38A350, 32, 128]
+      - [0x3B3110, i4, effect__43_Firework, 32, 128]
       - [0x3B3910, vtx, D_09000800_38AB50]
       - [0x3B3950, vtx, D_09000840_38AB90]
       - [0x3B3990, vtx, D_09000880_38ABD0]
@@ -1992,7 +1992,7 @@ segments:
       type: .data
       name: confetti
       subsegments:
-      - [0x3B4960, ia4, D_09000000_38BBA0, 16, 256]
+      - [0x3B4960, ia4, effect__44_Confetti, 16, 256]
       - [0x3B5160, vtx, D_09000800_38C3A0]
       - [0x3B51A0, vtx, D_09000840_38C3E0]
       - [0x3B51E0, vtx, D_09000880_38C420]
@@ -2020,8 +2020,8 @@ segments:
       type: .data
       name: snowfall
       subsegments:
-      - [0x3B5E30, i4, D_09000000_38D070, 16, 16]
-      - [0x3B5EB0, i4, D_09000080_38D0F0, 64, 64]
+      - [0x3B5E30, i4, effect__45_SnowfallPoint, 16, 16]
+      - [0x3B5EB0, i4, effect__45_SnowfallFlake, 64, 64]
       - [0x3B66B0, vtx, D_09000880_38D8F0]
       - [0x3B6830, vtx, D_09000A00_38DA70]
       - [0x3B68B0, vtx, D_09000A80_38DAF0]
@@ -2049,7 +2049,7 @@ segments:
       type: .data
       name: effect_46
       subsegments:
-      - [0x3B7750, i8, D_09000000_38E990, 32, 16]
+      - [0x3B7750, i8, effect__46_38E990, 32, 16]
       - [0x3B7950, vtx, D_09000200_38EB90]
       - [0x3B7AF0, gfx, D_090003A0_38ED30]
       - [0x3B7B70, gfx, D_09000420_38EDB0]
@@ -2072,7 +2072,7 @@ segments:
       type: .data
       name: gather_magic
       subsegments:
-      - [0x3B84D0, i4, D_09000000_38F710, 16, 16]
+      - [0x3B84D0, i4, effect__47_MagicSparkle, 16, 16]
       - [0x3B8550, gfx, D_09000080_38F790]
       - [0x3B85F8, vtx, D_09000128_38F838]
       - [0x3B8638, vtx, D_09000168_38F878]
@@ -2103,7 +2103,7 @@ segments:
       - [0x3B9990, ia4, battle/good,  64, 32]
       - [0x3B9D90, ia4, battle/nice,  64, 32]
       - [0x3BA190, ia4, battle/super, 64, 32]
-      - [0x3BA590, i8, D_09001400_3917D0, 8, 32]
+      - [0x3BA590, i8, effect__48_TextPopup_Gradient, 8, 32]
       - [0x3BA690, gfx, D_09001500_3918D0]
       - [0x3BA738, gfx, D_090015A8_391978]
       - [0x3BA7A0, gfx, D_09001610_3919E0]
@@ -2162,11 +2162,11 @@ segments:
       type: .data
       name: small_gold_sparkle
       subsegments:
-      - [0x3BFE20, i4, D_09000000_392440, 16, 16]
-      - [0x3BFEA0, i4, D_09000080_3924C0, 16, 16]
-      - [0x3BFF20, i4, D_09000100_392540, 16, 16]
-      - [0x3BFFA0, i4, D_09000180_3925C0, 16, 16]
-      - [0x3C0020, i4, D_09000200_392640, 16, 16]
+      - [0x3BFE20, i4, effect__49_SmallSparkle_1, 16, 16]
+      - [0x3BFEA0, i4, effect__49_SmallSparkle_2, 16, 16]
+      - [0x3BFF20, i4, effect__49_SmallSparkle_3, 16, 16]
+      - [0x3BFFA0, i4, effect__49_SmallSparkle_4, 16, 16]
+      - [0x3C0020, i4, effect__49_SmallSparkle_5, 16, 16]
       - [0x3C00A0, vtx, D_09000280_3926C0]
       - [0x3C00E0, gfx, D_090002C0_392700]
       - [0x3C0150, gfx, D_09000330_392770]
@@ -2194,8 +2194,8 @@ segments:
       type: .data
       name: flashing_box_shockwave
       subsegments:
-      - [0x3C0A80, i4, D_09000000_3930A0, 32, 32]
-      - [0x3C0C80, i8, D_09000200_3932A0, 32, 32]
+      - [0x3C0A80, i4, effect__4A_ShockWave, 32, 32]
+      - [0x3C0C80, i8, effect__4A_ShockVolume, 32, 32]
       - [0x3C1080, gfx, D_09000600_3936A0]
       - [0x3C1128, vtx, D_090006A8_393748]
       - [0x3C1268, vtx, D_090007E8_393888]
@@ -2227,17 +2227,17 @@ segments:
       type: .data
       name: balloon
       subsegments:
-      - [0x3C2050, ci4, D_09000000_394670, 32, 32]
-      - [0x3C2250, ci4, D_09000200_394870, 32, 32, D_09000000_394670]
-      - [0x3C2450, palette, D_09000000_394670]
+      - [0x3C2050, ci4, effect__4B_Balloon_Red, 32, 32]
+      - [0x3C2250, ci4, D_09000200_394870, 32, 32, effect__4B_Balloon_Red]
+      - [0x3C2450, palette, effect__4B_Balloon_Red]
       - [0x3C2470] # padding
-      - [0x3C2650, ci4, D_09000600_394C70, 32, 32]
-      - [0x3C2850, ci4, D_09000800_394E70, 32, 32, D_09000600_394C70]
-      - [0x3C2A50, palette, D_09000600_394C70]
+      - [0x3C2650, ci4, effect__4B_Balloon_Blue, 32, 32]
+      - [0x3C2850, ci4, D_09000800_394E70, 32, 32, effect__4B_Balloon_Blue]
+      - [0x3C2A50, palette, effect__4B_Balloon_Blue]
       - [0x3C2A70] # padding
-      - [0x3C2C50, ci4, D_09000C00_395270, 32, 32]
-      - [0x3C2E50, ci4, D_09000E00_395470, 32, 32, D_09000C00_395270]
-      - [0x3C3050, palette, D_09000C00_395270]
+      - [0x3C2C50, ci4, effect__4B_Balloon_Yellow, 32, 32]
+      - [0x3C2E50, ci4, D_09000E00_395470, 32, 32, effect__4B_Balloon_Yellow]
+      - [0x3C3050, palette, effect__4B_Balloon_Yellow]
       - [0x3C3070] # padding
       - [0x3C3250, vtx, D_09001200_395870]
       - [0x3C32D0, gfx, D_09001280_3958F0]
@@ -2290,8 +2290,8 @@ segments:
       type: .data
       name: chomp_drop
       subsegments:
-      - [0x3C4A20, i4, D_09000000_397040, 64, 64]
-      - [0x3C5220, ia4, D_09000800_397840, 64, 64]
+      - [0x3C4A20, i4, effect__4D_ChompDrop_Glow, 64, 64]
+      - [0x3C5220, ia4, effect__4D_ChompDrop_Solid, 64, 64]
       - [0x3C5A20, vtx, D_09001000_398040]
       - [0x3C5A60, gfx, D_09001040_398080]
       - [0x3C5B08, gfx, D_090010E8_398128]
@@ -2318,33 +2318,33 @@ segments:
       - [0x3C65A0] # light
       - [0x3C65B8, ia4, D_09000018_398BD8, 64, 16]
       - [0x3C67B8, gfx, D_09000218_398DD8]
-      - [0x3C6828, rgba16, D_09000288_398E48, 32, 64]
+      - [0x3C6828, rgba16, effect__4E_ChuckQuizmoStage_Kooper, 32, 64]
       - [0x3C7828, gfx, D_09001288_399E48]
       - [0x3C7898, ci4, D_090012F8_399EB8, 64, 16]
       - [0x3C7A98, palette, D_090012F8_399EB8]
       - [0x3C7AB8, gfx, D_09001518_39A0D8]
-      - [0x3C7B58, i4, D_090015B8_39A178, 32, 32]
+      - [0x3C7B58, i4, effect__4E_ChuckQuizmoStage_Floor, 32, 32]
       - [0x3C7D58, gfx, D_090017B8_39A378]
-      - [0x3C7DC8, ci4, D_09001828_39A3E8, 32, 64]
-      - [0x3C81C8, palette, D_09001828_39A3E8]
+      - [0x3C7DC8, ci4, effect__4E_ChuckQuizmoStage_VannaT, 32, 64]
+      - [0x3C81C8, palette, effect__4E_ChuckQuizmoStage_VannaT]
       - [0x3C81E8, gfx, D_09001C48_39A808]
-      - [0x3C8288, rgba16, D_09001CE8_39A8A8, 32, 64]
+      - [0x3C8288, rgba16, effect__4E_ChuckQuizmoStage_Mario, 32, 64]
       - [0x3C9288, gfx, D_09002CE8_39B8A8]
-      - [0x3C92F8, ci4, D_09002D58_39B918, 64, 64]
-      - [0x3C9AF8, palette, D_09002D58_39B918]
+      - [0x3C92F8, ci4, effect__4E_ChuckQuizmoStage_Emblem, 64, 64]
+      - [0x3C9AF8, palette, effect__4E_ChuckQuizmoStage_Emblem]
       - [0x3C9B18, gfx, D_09003578_39C138]
-      - [0x3C9BB8, ia4, D_09003618_39C1D8, 128, 32]
+      - [0x3C9BB8, ia4, effect__4E_ChuckQuizmoStage_RightCrowd, 128, 32]
       - [0x3CA3B8, gfx, D_09003E18_39C9D8]
-      - [0x3CA428, ci4, D_09003E88_39CA48, 32, 32]
-      - [0x3CA628, palette, D_09003E88_39CA48]
+      - [0x3CA428, ci4, effect__4E_ChuckQuizmoStage_Microphone, 32, 32]
+      - [0x3CA628, palette, effect__4E_ChuckQuizmoStage_Microphone]
       - [0x3CA648, gfx, D_090040A8_39CC68]
       - [0x3CA6E8]
-      - [0x3CA7E8, ci4, D_09004248_39CE08, 64, 64]
-      - [0x3CAFE8, palette, D_09004248_39CE08]
+      - [0x3CA7E8, ci4, effect__4E_ChuckQuizmoStage_ChuckQuizmo, 64, 64]
+      - [0x3CAFE8, palette, effect__4E_ChuckQuizmoStage_ChuckQuizmo]
       - [0x3CB008, gfx, D_09004A68_39D628]
-      - [0x3CB0A8, ia4, D_09004B08_39D6C8, 128, 32]
+      - [0x3CB0A8, ia4, effect__4E_ChuckQuizmoStage_LeftCrown, 128, 32]
       - [0x3CB8A8, gfx, D_09005308_39DEC8]
-      - [0x3CB918, rgba16, D_09005378_39DF38, 64, 32]
+      - [0x3CB918, rgba16, effect__4E_ChuckQuizmoStage_Podium, 64, 32]
       - [0x3CC918, gfx, D_09006378_39EF38]
       - [0x3CC988, vtx, D_090063E8_39EFA8]
       - [0x3CC9C8, vtx, D_09006428_39EFE8]
@@ -2412,8 +2412,8 @@ segments:
       type: .data
       name: radiating_energy_orb
       subsegments:
-      - [0x3CE740, i4, D_09000000_3A0D60, 16, 64]
-      - [0x3CE940, i8, D_09000200_3A0F60, 64, 64]
+      - [0x3CE740, i4, effect__4F_RadiantOrb_Decorations, 16, 64]
+      - [0x3CE940, i8, effect__4F_RadiantOrb_Center, 64, 64]
       - [0x3CF940, gfx, D_09001200_3A1F60]
       - [0x3CF9E8, gfx, D_090012A8_3A2008]
       - [0x3CFA90, vtx, D_09001350_3A20B0]
@@ -2445,8 +2445,8 @@ segments:
       type: .data
       name: quizmo_answer
       subsegments:
-      - [0x3CFE20, i4, D_09000000_3A2440, 32, 32]
-      - [0x3D0020, i4, D_09000200_3A2640, 32, 32]
+      - [0x3CFE20, i4, effect__50_QuizmoAnswer_Correct, 32, 32]
+      - [0x3D0020, i4, effect__50_QuizmoAnswer_Wrong, 32, 32]
       - [0x3D0220, gfx, D_09000400_3A2840]
       - [0x3D02C8, gfx, D_090004A8_3A28E8]
   - name: effect_motion_blur_flame
@@ -2468,8 +2468,8 @@ segments:
       type: .data
       name: motion_blur_flame
       subsegments:
-      - [0x3D0DB0, i8, D_09000000_3A33D0, 16, 16]
-      - [0x3D0EB0, i8, D_09000100_3A34D0, 16, 16]
+      - [0x3D0DB0, i8, effect__51_SmallUpgradeOrb_Bright, 16, 16]
+      - [0x3D0EB0, i8, effect__51_SmallUpgradeOrb_Diffuse, 16, 16]
       - [0x3D0FB0, gfx, D_09000200_3A35D0]
       - [0x3D1058, gfx, D_090002A8_3A3678]
       - [0x3D1108, gfx, D_09000358_3A3728]
@@ -2493,8 +2493,8 @@ segments:
       type: .data
       name: energy_orb_wave
       subsegments:
-      - [0x3D1D00, i4, D_09000000_3A4320, 64, 64]
-      - [0x3D2500, i8, D_09000800_3A4B20, 64, 32]
+      - [0x3D1D00, i4, effect__52_UpgradeOrb_Shockwave, 64, 64]
+      - [0x3D2500, i8, effect__52_UpgradeOrb_Center, 64, 32]
       - [0x3D2D00, gfx, D_09001000_3A5320]
       - [0x3D2DA8, gfx, D_090010A8_3A53C8]
       - [0x3D2E50, vtx, D_09001150_3A5470]
@@ -2521,8 +2521,8 @@ segments:
       type: .data
       name: merlin_house_stars
       subsegments:
-      - [0x3D35C0, i4, D_09000000_3A5BE0, 64, 64]
-      - [0x3D3DC0, i4, D_09000800_3A63E0, 64, 64]
+      - [0x3D35C0, i4, effect__53_MerlinHouseStars_A, 64, 64]
+      - [0x3D3DC0, i4, effect__53_MerlinHouseStars_B, 64, 64]
       - [0x3D45C0, gfx, D_09001000_3A6BE0]
       - [0x3D46B8, vtx, D_090010F8_3A6CD8]
       - [0x3D4848, vtx, D_09001288_3A6E68]
@@ -2551,25 +2551,25 @@ segments:
       type: .data
       name: quizmo_audience
       subsegments:
-      - [0x3D5180, ia4, D_09000000_3A77A0, 32, 64]
+      - [0x3D5180, ia4, effect__54_QuizmoAudience_Toad, 32, 64]
       - [0x3D5580, gfx, D_09000400_3A7BA0]
-      - [0x3D55F0, ia4, D_09000470_3A7C10, 32, 64]
+      - [0x3D55F0, ia4, effect__54_QuizmoAudience_ShyGuy, 32, 64]
       - [0x3D59F0, gfx, D_09000870_3A8010]
-      - [0x3D5A60, ia4, D_090008E0_3A8080, 32, 64]
+      - [0x3D5A60, ia4, effect__54_QuizmoAudience_Lakitu, 32, 64]
       - [0x3D5E60, gfx, D_09000CE0_3A8480]
-      - [0x3D5ED0, ia4, D_09000D50_3A84F0, 32, 64]
+      - [0x3D5ED0, ia4, effect__54_QuizmoAudience_Yoshi, 32, 64]
       - [0x3D62D0, gfx, D_09001150_3A88F0]
-      - [0x3D6340, ia4, D_090011C0_3A8960, 32, 64]
+      - [0x3D6340, ia4, effect__54_QuizmoAudience_Luigi, 32, 64]
       - [0x3D6740, gfx, D_090015C0_3A8D60]
-      - [0x3D67B0, ia4, D_09001630_3A8DD0, 32, 64]
+      - [0x3D67B0, ia4, effect__54_QuizmoAudience_KoopaBros, 32, 64]
       - [0x3D6BB0, gfx, D_09001A30_3A91D0]
-      - [0x3D6C20, ia4, D_09001AA0_3A9240, 32, 64]
+      - [0x3D6C20, ia4, effect__54_QuizmoAudience_JrTroopa, 32, 64]
       - [0x3D7020, gfx, D_09001EA0_3A9640]
-      - [0x3D7090, ia4, D_09001F10_3A96B0, 32, 64]
+      - [0x3D7090, ia4, effect__54_QuizmoAudience_Penguin, 32, 64]
       - [0x3D7490, gfx, D_09002310_3A9AB0]
-      - [0x3D7500, ia4, D_09002380_3A9B20, 32, 64]
+      - [0x3D7500, ia4, effect__54_QuizmoAudience_Goompapa, 32, 64]
       - [0x3D7900, gfx, D_09002780_3A9F20]
-      - [0x3D7970, ia4, D_090027F0_3A9F90, 32, 64]
+      - [0x3D7970, ia4, effect__54_QuizmoAudience_YoshiKid, 32, 64]
       - [0x3D7D70, gfx, D_09002BF0_3AA390]
       - [0x3D7DE0, vtx, D_09002C60_3AA400]
       - [0x3D7E20, vtx, D_09002CA0_3AA440]
@@ -2611,28 +2611,28 @@ segments:
       type: .data
       name: butterflies
       subsegments:
-      - [0x3D8A10, ci4, D_09000000_3AB030, 32, 64]
-      - [0x3D8E10, palette, D_09000000_3AB030]
-      - [0x3D8E30, ci4, D_09000420_3AB450, 32, 64]
-      - [0x3D9230, palette, D_09000420_3AB450]
+      - [0x3D8A10, ci4, effect__55_Butterfly_Wing_A, 32, 64]
+      - [0x3D8E10, palette, effect__55_Butterfly_Wing_A]
+      - [0x3D8E30, ci4, effect__55_Butterfly_Wing_B, 32, 64]
+      - [0x3D9230, palette, effect__55_Butterfly_Wing_B]
       - [0x3D9250, ci4, D_09000840_3AB870, 32, 64]
       - [0x3D9650, palette, D_09000840_3AB870]
-      - [0x3D9660, ci4, D_09000C50_3ABC80, 32, 64]
-      - [0x3D9A60, palette, D_09000C50_3ABC80]
+      - [0x3D9660, ci4, effect__55_Butterfly_Wing_D, 32, 64]
+      - [0x3D9A60, palette, effect__55_Butterfly_Wing_D]
       - [0x3D9A80, ci4, D_09001070_3AC0A0, 32, 64]
       - [0x3D9E80, palette, D_09001070_3AC0A0]
-      - [0x3D9E90, ci4, D_09001480_3AC4B0, 32, 64]
-      - [0x3DA290, palette, D_09001480_3AC4B0]
-      - [0x3DA2B0, ci4, D_090018A0_3AC8D0, 32, 64]
-      - [0x3DA6B0, palette, D_090018A0_3AC8D0]
-      - [0x3DA6D0, ci4, D_09001CC0_3ACCF0, 32, 64]
-      - [0x3DAAD0, palette, D_09001CC0_3ACCF0]
-      - [0x3DAAF0, ci4, D_090020E0_3AD110, 32, 64]
-      - [0x3DAEF0, palette, D_090020E0_3AD110]
-      - [0x3DAF10, ci4, D_09002500_3AD530, 32, 64]
-      - [0x3DB310, palette, D_09002500_3AD530]
-      - [0x3DB330, ci4, D_09002920_3AD950, 32, 64]
-      - [0x3DB730, palette, D_09002920_3AD950]
+      - [0x3D9E90, ci4, effect__55_Butterfly_Wing_F, 32, 64]
+      - [0x3DA290, palette, effect__55_Butterfly_Wing_F]
+      - [0x3DA2B0, ci4, effect__55_Butterfly_Wing_G, 32, 64]
+      - [0x3DA6B0, palette, effect__55_Butterfly_Wing_G]
+      - [0x3DA6D0, ci4, effect__55_Butterfly_Wing_H, 32, 64]
+      - [0x3DAAD0, palette, effect__55_Butterfly_Wing_H]
+      - [0x3DAAF0, ci4, effect__55_Butterfly_Wing_I, 32, 64]
+      - [0x3DAEF0, palette, effect__55_Butterfly_Wing_I]
+      - [0x3DAF10, ci4, effect__55_Butterfly_Wing_J, 32, 64]
+      - [0x3DB310, palette, effect__55_Butterfly_Wing_J]
+      - [0x3DB330, ci4, effect__55_Butterfly_Wing_K, 32, 64]
+      - [0x3DB730, palette, effect__55_Butterfly_Wing_K]
       - [0x3DB750, vtx, D_09002D40_3ADD70]
       - [0x3DC290, gfx, D_09003880_3AE8B0]
       - [0x3DC308, gfx, D_090038F8_3AE928]
@@ -2667,21 +2667,21 @@ segments:
       type: .data
       name: stat_change
       subsegments:
-      - [0x3DD0E0, i4, D_09000000_3AF700, 32, 32]
-      - [0x3DD2E0, i4, D_09000200_3AF900, 32, 32]
-      - [0x3DD4E0, i4, D_09000400_3AFB00, 32, 32]
-      - [0x3DD6E0, i4, D_09000600_3AFD00, 32, 32]
-      - [0x3DD8E0, i4, D_09000800_3AFF00, 32, 32]
-      - [0x3DDAE0, i4, D_09000A00_3B0100, 32, 32]
-      - [0x3DDCE0, i4, D_09000C00_3B0300, 32, 32]
-      - [0x3DDEE0, i4, D_09000E00_3B0500, 32, 32]
-      - [0x3DE0E0, i4, D_09001000_3B0700, 32, 32]
-      - [0x3DE2E0, i4, D_09001200_3B0900, 32, 32]
-      - [0x3DE4E0, i4, D_09001400_3B0B00, 32, 32]
-      - [0x3DE6E0, i4, D_09001600_3B0D00, 32, 32]
-      - [0x3DE8E0, rgba16, D_09001800_3B0F00, 32, 32]
-      - [0x3DF0E0, ci8, D_09002000_3B1700, 32, 32]
-      - [0x3DF4E0, palette, D_09002000_3B1700]
+      - [0x3DD0E0, i4, effect__56_StatChange_Plus, 32, 32]
+      - [0x3DD2E0, i4, effect__56_StatChange_Minus, 32, 32]
+      - [0x3DD4E0, i4, effect__56_StatChange_9, 32, 32]
+      - [0x3DD6E0, i4, effect__56_StatChange_8, 32, 32]
+      - [0x3DD8E0, i4, effect__56_StatChange_7, 32, 32]
+      - [0x3DDAE0, i4, effect__56_StatChange_6, 32, 32]
+      - [0x3DDCE0, i4, effect__56_StatChange_5, 32, 32]
+      - [0x3DDEE0, i4, effect__56_StatChange_4, 32, 32]
+      - [0x3DE0E0, i4, effect__56_StatChange_3, 32, 32]
+      - [0x3DE2E0, i4, effect__56_StatChange_2, 32, 32]
+      - [0x3DE4E0, i4, effect__56_StatChange_1, 32, 32]
+      - [0x3DE6E0, i4, effect__56_StatChange_0, 32, 32]
+      - [0x3DE8E0, rgba16, effect__56_StatChange_RedArrow, 32, 32]
+      - [0x3DF0E0, ci8, effect__56_StatChange_BlueArrow, 32, 32]
+      - [0x3DF4E0, palette, effect__56_StatChange_BlueArrow]
       - [0x3DF6E0, vtx, D_09002600_3B1D00]
       - [0x3DF720, vtx, D_09002640_3B1D40]
       - [0x3DF760, vtx, D_09002680_3B1D80]
@@ -2724,7 +2724,7 @@ segments:
       type: .data
       name: snaking_static
       subsegments:
-      - [0x3E0770, i4, D_09000000_3B2D90, 256, 32]
+      - [0x3E0770, i4, effect__57_SnakingStatic, 256, 32]
       - [0x3E1770, gfx, D_09001000_3B3D90]
       - [0x3E1828, vtx, D_090010B8_3B3E48]
       - [0x3E1868, gfx, D_090010F8_3B3E88]
@@ -2769,8 +2769,8 @@ segments:
       type: .data
       name: squirt
       subsegments:
-      - [0x3E2D20, ia4, D_09000000_3B5340, 64, 32]
-      - [0x3E3120, ia8, D_09000400_3B5740, 32, 32]
+      - [0x3E2D20, ia4, effect__59_SquirtBeam, 64, 32]
+      - [0x3E3120, ia8, effect__59_SquirtWave, 32, 32]
       - [0x3E3520, gfx, D_09000800_3B5B40]
       - [0x3E35C8, gfx, D_090008A8_3B5BE8]
       - [0x3E3670, vtx, D_09000950_3B5C90]
@@ -2794,8 +2794,8 @@ segments:
       type: .data
       name: water_block
       subsegments:
-      - [0x3E45D0, i4, D_09000000_3B6BF0, 16, 32]
-      - [0x3E46D0, ia4, D_09000100_3B6CF0, 32, 32]
+      - [0x3E45D0, i4, effect__5A_WaterBlock, 16, 32]
+      - [0x3E46D0, ia4, effect__5A_WaterBlock_Bubble, 32, 32]
       - [0x3E48D0, gfx, D_09000300_3B6EF0]
       - [0x3E4980, gfx, D_090003B0_3B6FA0]
       - [0x3E4A30, vtx, D_09000460_3B7050]
@@ -2823,7 +2823,7 @@ segments:
       type: .data
       name: waterfall
       subsegments:
-      - [0x3E52B0, i4, D_09000000_3B78D0, 32, 32]
+      - [0x3E52B0, i4, effect__5B_WaterFall, 32, 32]
       - [0x3E54B0, gfx, D_09000200_3B7AD0]
       - [0x3E5558]
   - name: effect_water_fountain
@@ -2845,7 +2845,7 @@ segments:
       type: .data
       name: water_fountain
       subsegments:
-      - [0x3E6240, i4, D_09000000_3B8860, 32, 32]
+      - [0x3E6240, i4, effect__5C_WaterFountain, 32, 32]
       - [0x3E6440, vtx, D_09000200_3B8A60]
       - [0x3E6480, vtx, D_09000240_3B8AA0]
       - [0x3E64C0, gfx, D_09000280_3B8AE0]
@@ -2871,7 +2871,7 @@ segments:
       type: .data
       name: underwater
       subsegments:
-      - [0x3E7450, i4, D_09000000_3B9A70, 16, 16]
+      - [0x3E7450, i4, effect__5D_TidalWave_Bubble, 16, 16]
       - [0x3E74D0, vtx, D_09000080_3B9AF0]
       - [0x3E7650, gfx, D_09000200_3B9C70]
       - [0x3E7698, gfx, D_09000248_3B9CB8]
@@ -2904,7 +2904,7 @@ segments:
       type: .data
       name: lightning_bolt
       subsegments:
-      - [0x3E8880, i8, D_09000000_3BAEA0, 128, 32]
+      - [0x3E8880, i8, effect__5E_Lightning, 128, 32]
       - [0x3E9880, gfx, D_09001000_3BBEA0]
       - [0x3E9938]
   - name: effect_water_splash
@@ -2926,7 +2926,7 @@ segments:
       type: .data
       name: water_splash
       subsegments:
-      - [0x3EA470, ia8, D_09000000_3BCA90, 16, 16]
+      - [0x3EA470, ia8, effect__5F_WaterDrop, 16, 16]
       - [0x3EA570, gfx, D_09000100_3BCB90]
       - [0x3EA618, vtx, D_090001A8_3BCC38]
       - [0x3EA658, vtx, D_090001E8_3BCC78]
@@ -2954,10 +2954,10 @@ segments:
       type: .data
       name: snowman_doll
       subsegments:
-      - [0x3EB380, ia8, D_09000000_3BD9A0, 32, 64]
+      - [0x3EB380, ia8, effect__60_SnowmanDoll_FaceMask, 32, 64]
       - [0x3EBB80, gfx, D_09000800_3BE1A0]
-      - [0x3EBBF8, ci4, D_09000878_3BE218, 32, 32]
-      - [0x3EBDF8, palette, D_09000878_3BE218]
+      - [0x3EBBF8, ci4, effect__60_SnowmanDoll_Surface, 32, 32]
+      - [0x3EBDF8, palette, effect__60_SnowmanDoll_Surface]
       - [0x3EBE18, gfx, D_09000A98_3BE438]
       - [0x3EBEC0, vtx, D_09000B40_3BE4E0]
       - [0x3EBF40, vtx, D_09000BC0_3BE560]
@@ -3080,10 +3080,10 @@ segments:
       type: .data
       name: fright_jar
       subsegments:
-      - [0x3EF580, ci4, D_09000000_3C1BA0, 128, 128]
-      - [0x3F1580, palette, D_09000000_3C1BA0]
-      - [0x3F15A0, ci8, D_09002020_3C3BC0, 64, 128]
-      - [0x3F35A0, palette, D_09002020_3C3BC0]
+      - [0x3EF580, ci4, effect__61_FrightJar_1, 128, 128]
+      - [0x3F1580, palette, effect__61_FrightJar_1]
+      - [0x3F15A0, ci8, effect__61_FrightJar_2, 64, 128]
+      - [0x3F35A0, palette, effect__61_FrightJar_2]
       - [0x3F35C0, vtx, D_09004040_3C5BE0]
       - [0x3F3930, vtx, D_090043B0_3C5F50]
       - [0x3F3CA0, vtx, D_09004720_3C62C0]
@@ -3110,8 +3110,8 @@ segments:
       type: .data
       name: stop_watch
       subsegments:
-      - [0x3F9270, i4, D_09000000_3CB890, 64, 64]
-      - [0x3F9A70, i4, D_09000800_3CC090, 64, 64]
+      - [0x3F9270, i4, effect__62_StopWatch_Center, 64, 64]
+      - [0x3F9A70, i4, effect__62_StopWatch_Glow, 64, 64]
       - [0x3FA270, gfx, D_09001000_3CC890]
       - [0x3FA358, vtx, D_090010E8_3CC978]
       - [0x3FA398, gfx, D_09001128_3CC9B8]
@@ -3135,10 +3135,10 @@ segments:
       type: .data
       name: effect_63
       subsegments:
-      - [0x3FB0C0, i8, D_09000000_3CD6E0, 32, 32]
-      - [0x3FB4C0, i4, D_09000400_3CDAE0, 32, 128]
-      - [0x3FBCC0, i8, D_09000C00_3CE2E0, 32, 32]
-      - [0x3FC0C0, i8, D_09001000_3CE6E0, 32, 64]
+      - [0x3FB0C0, i8, effect__63_Orb_Main, 32, 32]
+      - [0x3FB4C0, i4, effect__63_Orb_Detail, 32, 128]
+      - [0x3FBCC0, i8, effect__63_Fire_Main, 32, 32]
+      - [0x3FC0C0, i8, effect__63_Fire_Detail, 32, 64]
       - [0x3FC8C0, vtx, D_09001800_3CEEE0]
       - [0x3FC900, vtx, D_09001840_3CEF20]
       - [0x3FC940, vtx, D_09001880_3CEF60]
@@ -3174,11 +3174,11 @@ segments:
       type: .data
       name: throw_spiny
       subsegments:
-      - [0x3FD4D0, ci4, D_09000000_3CFAF0, 32, 32]
-      - [0x3FD6D0, palette, D_09000000_3CFAF0]
+      - [0x3FD4D0, ci4, effect__64_ThrowSpiny_Red, 32, 32]
+      - [0x3FD6D0, palette, effect__64_ThrowSpiny_Red]
       - [0x3FD6F0] # padding
-      - [0x3FD8D0, ci4, D_09000400_3CFEF0, 32, 32]
-      - [0x3FDAD0, palette, D_09000400_3CFEF0]
+      - [0x3FD8D0, ci4, effect__64_ThrowSpiny_Gold, 32, 32]
+      - [0x3FDAD0, palette, effect__64_ThrowSpiny_Gold]
       - [0x3FDAF0] # padding
       - [0x3FDCD0, gfx, D_09000800_3D02F0]
       - [0x3FDDA8, gfx, D_090008D8_3D03C8]
@@ -3203,7 +3203,7 @@ segments:
       type: .data
       name: effect_65
       subsegments:
-      - [0x3FEBC0, i4, D_09000000_3D11E0, 64, 32]
+      - [0x3FEBC0, i4, effect__65_Fume, 64, 32]
       - [0x3FEFC0, gfx, D_09000400_3D15E0]
       - [0x3FF068]
   - name: effect_tubba_heart_attack
@@ -3225,8 +3225,8 @@ segments:
       type: .data
       name: tubba_heart_attack
       subsegments:
-      - [0x3FFF60, ci4, D_09000000_3D2580, 32, 32]
-      - [0x400160, palette, D_09000000_3D2580]
+      - [0x3FFF60, ci4, effect__66_TubbaHeart, 32, 32]
+      - [0x400160, palette, effect__66_TubbaHeart]
       - [0x400180] # padding
       - [0x400360, gfx, D_09000400_3D2980]
       - [0x400438, vtx, D_090004D8_3D2A58]
@@ -3251,7 +3251,7 @@ segments:
       type: .data
       name: whirlwind
       subsegments:
-      - [0x401310, i4, D_09000000_3D3930, 64, 32]
+      - [0x401310, i4, effect__67_Whirlwind_Detail, 64, 32]
       - [0x401710, gfx, D_09000400_3D3D30]
   - name: effect_red_impact
     dir: effects
@@ -3280,7 +3280,7 @@ segments:
       type: .data
       name: floating_cloud_puff
       subsegments:
-      - [0x402870, ia4, D_09000000_3D4E90, 16, 16]
+      - [0x402870, ia4, effect__69_CloudPuff, 16, 16]
       - [0x4028F0, gfx, D_09000080_3D4F10]
       - [0x402998, vtx, D_09000128_3D4FB8]
       - [0x4029D8, gfx, D_09000168_3D4FF8]
@@ -3304,7 +3304,7 @@ segments:
       type: .data
       name: energy_in_out
       subsegments:
-      - [0x403910, i4, D_09000000_3D5F30, 16, 64]
+      - [0x403910, i4, effect__6B_VariousDecorations, 16, 64]
       - [0x403B10, gfx, D_09000200_3D6130]
       - [0x403BB8, vtx, D_090002A8_3D61D8]
       - [0x403BF8, vtx, D_090002E8_3D6218]
@@ -3378,7 +3378,7 @@ segments:
       type: .data
       name: shiny_flare
       subsegments:
-      - [0x405150, i4, D_09000000_3D7770, 32, 32]
+      - [0x405150, i4, effect__6D_ShinyFlare, 32, 32]
       - [0x405350, vtx, D_09000200_3D7970]
       - [0x405390, gfx, D_09000240_3D79B0]
       - [0x405430, gfx, D_090002E0_3D7A50]
@@ -3401,8 +3401,8 @@ segments:
       type: .data
       name: huff_puff_breath
       subsegments:
-      - [0x405AA0, i8, D_09000000_3D80C0, 32, 16]
-      - [0x405CA0, i8, D_09000200_3D82C0, 32, 16]
+      - [0x405AA0, i8, effect__6E_HuffPuffBreath_Detail, 32, 16]
+      - [0x405CA0, i8, effect__6E_HuffPuffBreath_Main, 32, 16]
       - [0x405EA0, gfx, D_09000400_3D84C0]
       - [0x405F88, vtx, D_090004E8_3D85A8]
       - [0x405FC8, vtx, D_09000528_3D85E8]
@@ -3429,8 +3429,8 @@ segments:
       type: .data
       name: cold_breath
       subsegments:
-      - [0x406AE0, i8, D_09000000_3D9100, 32, 128]
-      - [0x407AE0, i8, D_09001000_3DA100, 32, 128]
+      - [0x406AE0, i8, effect__6F_Breath_Puff, 32, 128]
+      - [0x407AE0, i8, effect__6F_Breath_Swirl, 32, 128]
       - [0x408AE0, gfx, D_09002000_3DB100]
       - [0x408BA0, vtx, D_090020C0_3DB1C0]
       - [0x408BE0, vtx, D_09002100_3DB200]
@@ -3462,8 +3462,8 @@ segments:
       type: .data
       name: embers
       subsegments:
-      - [0x409920, i4, D_09000000_3DBF40, 16, 64]
-      - [0x409B20, i4, D_09000200_3DC140, 16, 16]
+      - [0x409920, i4, effect__70_SmallParticles_Embers, 16, 64]
+      - [0x409B20, i4, effect__70_SmallParticles_Noise, 16, 16]
       - [0x409BA0, gfx, D_09000280_3DC1C0]
       - [0x409C90, vtx, D_09000370_3DC2B0]
       - [0x409CD0, gfx, D_090003B0_3DC2F0]
@@ -3486,7 +3486,7 @@ segments:
       type: .data
       name: hieroglyphs
       subsegments:
-      - [0x40A730, i8, D_09000000_3DCD50, 128, 32]
+      - [0x40A730, i8, effect__71_Hieroglyphics, 128, 32]
       - [0x40B730, gfx, D_09001000_3DDD50]
       - [0x40B7D8, vtx, D_090010A8_3DDDF8]
       - [0x40B9D8]
@@ -3509,11 +3509,11 @@ segments:
       type: .data
       name: misc_particles
       subsegments:
-      - [0x40C840, i8, D_09000000_3DEE60, 128, 32]
-      - [0x40D840, i4, D_09001000_3DFE60, 16, 16]
-      - [0x40D8C0, i4, D_09001080_3DFEE0, 16, 16]
-      - [0x40D940, i4, D_09001100_3DFF60, 16, 16]
-      - [0x40D9C0, ia8, D_09001180_3DFFE0, 32, 32]
+      - [0x40C840, i8, effect__72_SmallParticles_Shimmer, 128, 32]
+      - [0x40D840, i4, effect__72_SmallParticles_Circle, 16, 16]
+      - [0x40D8C0, i4, effect__72_SmallParticles_Snow, 16, 16]
+      - [0x40D940, i4, effect__72_SmallParticles_Noise, 16, 16]
+      - [0x40D9C0, ia8, effect__72_SmallParticles_Star, 32, 32]
       - [0x40DDC0, gfx, D_09001580_3E03E0]
       - [0x40DEB0, gfx, D_09001670_3E04D0]
       - [0x40DFA8, gfx, D_09001768_3E05C8]
@@ -3546,8 +3546,8 @@ segments:
       type: .data
       name: static_status
       subsegments:
-      - [0x40ECB0, ci4, D_09000000_3E12D0, 16, 16]
-      - [0x40ED30, palette, D_09000000_3E12D0]
+      - [0x40ECB0, ci4, effect__73_StaticStatus, 16, 16]
+      - [0x40ED30, palette, effect__73_StaticStatus]
       - [0x40ED50] # padding
       - [0x40EF30, gfx, D_09000280_3E1550]
       - [0x40F010, vtx, D_09000360_3E1630]
@@ -3571,7 +3571,7 @@ segments:
       type: .data
       name: moving_cloud
       subsegments:
-      - [0x40F6B0, ia8, D_09000000_3E1CD0, 16, 16]
+      - [0x40F6B0, ia8, effect__74_MovingCloud, 16, 16]
       - [0x40F7B0, gfx, D_09000100_3E1DD0]
       - [0x40F858, vtx, D_090001A8_3E1E78]
       - [0x40F898, gfx, D_090001E8_3E1EB8]
@@ -3595,8 +3595,8 @@ segments:
       type: .data
       name: effect_75
       subsegments:
-      - [0x410340, i4, D_09000000_3E2960, 64, 64]
-      - [0x410B40, i4, D_09000800_3E3160, 64, 64]
+      - [0x410340, i4, effect__75_StarField_A, 64, 64]
+      - [0x410B40, i4, effect__75_StarField_B, 64, 64]
       - [0x411340, vtx, D_09001000_3E3960]
       - [0x4113B0, vtx, D_09001070_3E39D0]
       - [0x4114D0, vtx, D_09001190_3E3AF0]
@@ -3630,7 +3630,7 @@ segments:
       type: .data
       name: firework_rocket
       subsegments:
-      - [0x412D30, i4, D_09000000_3E5350, 16, 16]
+      - [0x412D30, i4, effect__77_Firework_Rocket, 16, 16]
       - [0x412DB0, gfx, D_09000080_3E53D0]
       - [0x412E58, vtx, D_09000128_3E5478]
       - [0x412E88, gfx, D_09000158_3E54A8]
@@ -3668,30 +3668,30 @@ segments:
       - [0x413CD0, gfx, D_090003C0_3E62F0]
       - [0x413CE0, gfx, D_090003D0_3E6300]
       - [0x413CF0] # padding
-      - [0x413CF8, i4, D_090003E8_3E6318, 32, 32]
-      - [0x413EF8, ci4, D_090005E8_3E6518, 32, 32]
-      - [0x4140F8, palette, D_090005E8_3E6518]
+      - [0x413CF8, i4, effect__78_StarBeam_Gradient, 32, 32]
+      - [0x413EF8, ci4, effect__78_StarBeam_Twink, 32, 32]
+      - [0x4140F8, palette, effect__78_StarBeam_Twink]
       - [0x414118] # padding
-      - [0x4142F8, ci4, D_090009E8_3E6918, 64, 64]
-      - [0x414AF8, palette, D_090009E8_3E6918]
+      - [0x4142F8, ci4, effect__78_StarBeam_Eldstar, 64, 64]
+      - [0x414AF8, palette, effect__78_StarBeam_Eldstar]
       - [0x414B18] # padding
-      - [0x414CF8, ci4, D_090013E8_3E7318, 64, 64]
-      - [0x4154F8, palette, D_090013E8_3E7318]
+      - [0x414CF8, ci4, effect__78_StarBeam_Mamar, 64, 64]
+      - [0x4154F8, palette, effect__78_StarBeam_Mamar]
       - [0x415518] # padding
-      - [0x4156F8, ci4, D_09001DE8_3E7D18, 64, 64]
-      - [0x415EF8, palette, D_09001DE8_3E7D18]
+      - [0x4156F8, ci4, effect__78_StarBeam_Misstar, 64, 64]
+      - [0x415EF8, palette, effect__78_StarBeam_Misstar]
       - [0x415F18] # padding
-      - [0x4160F8, ci4, D_090027E8_3E8718, 64, 64]
-      - [0x4168F8, palette, D_090027E8_3E8718]
+      - [0x4160F8, ci4, effect__78_StarBeam_Muskular, 64, 64]
+      - [0x4168F8, palette, effect__78_StarBeam_Muskular]
       - [0x416918] # padding
-      - [0x416AF8, ci4, D_090031E8_3E9118, 64, 64]
-      - [0x4172F8, palette, D_090031E8_3E9118]
+      - [0x416AF8, ci4, effect__78_StarBeam_Skolar, 64, 64]
+      - [0x4172F8, palette, effect__78_StarBeam_Skolar]
       - [0x417318] # padding
-      - [0x4174F8, ci4, D_09003BE8_3E9B18, 64, 64]
-      - [0x417CF8, palette, D_09003BE8_3E9B18]
+      - [0x4174F8, ci4, effect__78_StarBeam_Klevar, 64, 64]
+      - [0x417CF8, palette, effect__78_StarBeam_Klevar]
       - [0x417D18] # padding
-      - [0x417EF8, ci4, D_090045E8_3EA518, 64, 64]
-      - [0x4186F8, palette, D_090045E8_3EA518]
+      - [0x417EF8, ci4, effect__78_StarBeam_Kalmar, 64, 64]
+      - [0x4186F8, palette, effect__78_StarBeam_Kalmar]
       - [0x418718] # padding
       - [0x4188F8, gfx, D_09004FE8_3EAF18]
       - [0x4189A0, gfx, D_09005090_3EAFC0]
@@ -3798,7 +3798,7 @@ segments:
       type: .data
       name: ice_shard
       subsegments:
-      - [0x44B7E0, i4, D_09000000_3F8CC0, 64, 128]
+      - [0x44B7E0, i4, effect__7A_IceShard, 64, 128]
       - [0x44C7E0, gfx, D_09001000_3F9CC0]
       - [0x44C898, vtx, D_090010B8_3F9D78]
       - [0x44C8D8, vtx, D_090010F8_3F9DB8]
@@ -3953,32 +3953,32 @@ segments:
       - [0x4534F8, gfx, D_09001788_4009D8]
       - [0x453508, gfx, D_09001798_4009E8]
       - [0x453518] # padding
-      - [0x453520, ci4, D_090017B0_400A00, 16, 8]
-      - [0x453560, palette, D_090017B0_400A00]
+      - [0x453520, ci4, effect__LilOink_Black, 16, 8]
+      - [0x453560, palette, effect__LilOink_Black]
       - [0x453580] # padding
-      - [0x453760, ci4, D_090019F0_400C40, 16, 8]
-      - [0x4537A0, palette, D_090019F0_400C40]
+      - [0x453760, ci4, effect__LilOink_White, 16, 8]
+      - [0x4537A0, palette, effect__LilOink_White]
       - [0x4537C0] # padding
-      - [0x4539A0, ci4, D_09001C30_400E80, 16, 8]
-      - [0x4539E0, palette, D_09001C30_400E80]
+      - [0x4539A0, ci4, effect__LilOink_Tiger, 16, 8]
+      - [0x4539E0, palette, effect__LilOink_Tiger]
       - [0x453A00] # padding
-      - [0x453BE0, ci4, D_09001E70_4010C0, 16, 8]
-      - [0x453C20, palette, D_09001E70_4010C0]
+      - [0x453BE0, ci4, effect__LilOink_Shroom, 16, 8]
+      - [0x453C20, palette, effect__LilOink_Shroom]
       - [0x453C40] # padding
-      - [0x453E20, ci4, D_090020B0_401300, 16, 8]
-      - [0x453E60, palette, D_090020B0_401300]
+      - [0x453E20, ci4, effect__LilOink_Flower, 16, 8]
+      - [0x453E60, palette, effect__LilOink_Flower]
       - [0x453E80] # padding
-      - [0x454060, ci4, D_090022F0_401540, 16, 8]
-      - [0x4540A0, palette, D_090022F0_401540]
+      - [0x454060, ci4, effect__LilOink_Star, 16, 8]
+      - [0x4540A0, palette, effect__LilOink_Star]
       - [0x4540C0] # padding
-      - [0x4542A0, ci4, D_09002530_401780, 16, 8]
-      - [0x4542E0, palette, D_09002530_401780]
+      - [0x4542A0, ci4, effect__LilOink_Question, 16, 8]
+      - [0x4542E0, palette, effect__LilOink_Question]
       - [0x454300] # padding
-      - [0x4544E0, ci4, D_09002770_4019C0, 32, 16]
-      - [0x4545E0, palette, D_09002770_4019C0]
+      - [0x4544E0, ci4, effect__LilOink_Silver, 32, 16]
+      - [0x4545E0, palette, effect__LilOink_Silver]
       - [0x454600] # padding
-      - [0x4547E0, ci4, D_09002A70_401CC0, 32, 16]
-      - [0x4548E0, palette, D_09002A70_401CC0]
+      - [0x4547E0, ci4, effect__LilOink_Gold, 32, 16]
+      - [0x4548E0, palette, effect__LilOink_Gold]
       - [0x454900] # padding
       - [0x454AE0, gfx, D_09002D70_401FC0]
       - [0x454B48, gfx, D_09002DD8_402028]
@@ -4025,7 +4025,7 @@ segments:
       type: .data
       name: breaking_junk
       subsegments:
-      - [0x456710, ia8, D_09000000_403BF0, 16, 16]
+      - [0x456710, ia8, effect__7E_BreakingJunk, 16, 16]
       - [0x456810, ia8, D_09000100_403CF0, 16, 16]
       - [0x456910, ia8, D_09000200_403DF0, 16, 16]
       - [0x456A10, ia8, D_09000300_403EF0, 16, 16]
@@ -4100,17 +4100,17 @@ segments:
       type: .data
       name: quizmo_assistant
       subsegments:
-      - [0x459BA0, ci4, D_09000000_407080, 64, 64]
-      - [0x45A3A0, palette, D_09000000_407080]
+      - [0x459BA0, ci4, effect__80_VannaT_Idle, 64, 64]
+      - [0x45A3A0, palette, effect__80_VannaT_Idle]
       - [0x45A3C0] # padding
-      - [0x45A5A0, ci4, D_09000A00_407A80, 64, 32]
-      - [0x45A9A0, palette, D_09000A00_407A80]
+      - [0x45A5A0, ci4, effect__80_VannaT_Hands, 64, 32]
+      - [0x45A9A0, palette, effect__80_VannaT_Hands]
       - [0x45A9C0] # padding
-      - [0x45ABA0, ci4, D_09001000_408080, 64, 64]
-      - [0x45B3A0, palette, D_09001000_408080]
+      - [0x45ABA0, ci4, effect__80_VannaT_Clap_1, 64, 64]
+      - [0x45B3A0, palette, effect__80_VannaT_Clap_1]
       - [0x45B3C0] # padding
-      - [0x45B5A0, ci4, D_09001A00_408A80, 64, 64]
-      - [0x45BDA0, palette, D_09001A00_408A80]
+      - [0x45B5A0, ci4, effect__80_VannaT_Clap_2, 64, 64]
+      - [0x45BDA0, palette, effect__80_VannaT_Clap_2]
       - [0x45BDC0] # padding
       - [0x45BFA0, gfx, D_09002400_409480]
       - [0x45C008, vtx, D_09002468_4094E8]
@@ -4141,7 +4141,7 @@ segments:
       type: .data
       name: ice_pillar
       subsegments:
-      - [0x45CCE0, i4, D_09000000_40A1C0, 32, 64]
+      - [0x45CCE0, i4, effect__81_IcePillar, 32, 64]
       - [0x45D0E0, i4, D_09000400_40A5C0, 32, 64]
       - [0x45D4E0, i4, D_09000800_40A9C0, 32, 64]
       - [0x45D8E0, i4, D_09000C00_40ADC0, 32, 64]
@@ -4175,8 +4175,8 @@ segments:
       type: .data
       name: sun
       subsegments:
-      - [0x45E6C0, i4, D_09000000_40BBA0, 16, 64]
-      - [0x45E8C0, i4, D_09000200_40BDA0, 256, 8]
+      - [0x45E6C0, i4, effect__82_SunRay_Beam, 16, 64]
+      - [0x45E8C0, i4, effect__82_SunRay_Variation, 256, 8]
       - [0x45ECC0, vtx, D_09000600_40C1A0]
       - [0x45ED40, vtx, D_09000680_40C220]
       - [0x45ED80, vtx, D_090006C0_40C260]
@@ -4216,13 +4216,13 @@ segments:
       type: .data
       name: star_spirits_energy
       subsegments:
-      - [0x45FDB0, i4, D_09000000_40D290, 32, 32]
-      - [0x45FFB0, i4, D_09000200_40D490, 256, 32]
+      - [0x45FDB0, i4, effect__83_RescueSpirit_LightOrb, 32, 32]
+      - [0x45FFB0, i4, effect__83_RescueSpirit_Fragments, 256, 32]
       - [0x460FB0, i4, D_09001200_40E490, 256, 32]
       - [0x461FB0, i4, D_09002200_40F490, 256, 32]
       - [0x462FB0, i4, D_09003200_410490, 256, 32]
-      - [0x463FB0, i4, D_09004200_411490, 64, 64]
-      - [0x4647B0, i4, D_09004A00_411C90, 64, 32]
+      - [0x463FB0, i4, effect__83_RescueSpirit_Shockwave, 64, 64]
+      - [0x4647B0, i4, effect__83_RescueSpirit_LightBurst, 64, 32]
       - [0x464BB0, gfx, D_09004E00_412090]
       - [0x464C18, vtx, D_09004E68_4120F8]
       - [0x464C58, vtx, D_09004EA8_412138]
@@ -4269,7 +4269,7 @@ segments:
       type: .data
       name: star_outline
       subsegments:
-      - [0x466AC0, i4, D_09000000_413FA0, 64, 64]
+      - [0x466AC0, i4, effect__85_StarOutline_Glow, 64, 64]
       - [0x4672C0, gfx, D_09000800_4147A0]
       - [0x467360, vtx, D_090008A0_414840]
       - [0x4674A0, vtx, D_090009E0_414980]
@@ -4294,7 +4294,7 @@ segments:
       type: .data
       name: effect_86
       subsegments:
-      - [0x467B80, i4, D_09000000_415060, 256, 16]
+      - [0x467B80, i4, effect__86_415060, 256, 16]
       - [0x468380, gfx, D_09000800_415860]
       - [0x468428, vtx, D_090008A8_415908]
       - [0x468468, vtx, D_090008E8_415948]

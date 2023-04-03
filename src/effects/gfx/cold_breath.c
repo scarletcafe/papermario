@@ -1,5 +1,5 @@
-#include "effects/gfx/D_09000000_3D9100.png.inc.c"
-#include "effects/gfx/D_09001000_3DA100.png.inc.c"
+#include "effects/gfx/effect__6F_Breath_Puff.png.inc.c"
+#include "effects/gfx/effect__6F_Breath_Swirl.png.inc.c"
 
 #include "effects/gfx/D_09002000_3DB100.gfx.inc.c"
 

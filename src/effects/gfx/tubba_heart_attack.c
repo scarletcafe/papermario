@@ -1,7 +1,7 @@
 #include "common.h"
 
-#include "effects/gfx/D_09000000_3D2580.png.inc.c"
-#include "effects/gfx/D_09000000_3D2580.pal.inc.c"
+#include "effects/gfx/effect__66_TubbaHeart.png.inc.c"
+#include "effects/gfx/effect__66_TubbaHeart.pal.inc.c"
 
 u8 D_09000220_3D27A0[0x1E0] = {};
 

@@ -1,7 +1,7 @@
-#include "effects/gfx/D_09000000_3CD6E0.png.inc.c"
-#include "effects/gfx/D_09000400_3CDAE0.png.inc.c"
-#include "effects/gfx/D_09000C00_3CE2E0.png.inc.c"
-#include "effects/gfx/D_09001000_3CE6E0.png.inc.c"
+#include "effects/gfx/effect__63_Orb_Main.png.inc.c"
+#include "effects/gfx/effect__63_Orb_Detail.png.inc.c"
+#include "effects/gfx/effect__63_Fire_Main.png.inc.c"
+#include "effects/gfx/effect__63_Fire_Detail.png.inc.c"
 
 #include "effects/gfx/D_09001800_3CEEE0.vtx.inc.c"
 #include "effects/gfx/D_09001840_3CEF20.vtx.inc.c"

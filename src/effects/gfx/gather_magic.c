@@ -1,4 +1,4 @@
-#include "effects/gfx/D_09000000_38F710.png.inc.c"
+#include "effects/gfx/effect__47_MagicSparkle.png.inc.c"
 
 #include "effects/gfx/D_09000080_38F790.gfx.inc.c"
 

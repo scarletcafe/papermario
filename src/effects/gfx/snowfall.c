@@ -1,5 +1,5 @@
-#include "effects/gfx/D_09000000_38D070.png.inc.c"
-#include "effects/gfx/D_09000080_38D0F0.png.inc.c"
+#include "effects/gfx/effect__45_SnowfallPoint.png.inc.c"
+#include "effects/gfx/effect__45_SnowfallFlake.png.inc.c"
 #include "effects/gfx/D_09000880_38D8F0.vtx.inc.c"
 #include "effects/gfx/D_09000A00_38DA70.vtx.inc.c"
 

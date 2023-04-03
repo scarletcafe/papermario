@@ -1,4 +1,4 @@
-#include "effects/gfx/D_09000000_35F0E0.png.inc.c"
+#include "effects/gfx/effect__2C_LeavesFalling.png.inc.c"
 
 #include "effects/gfx/D_09001000_3600E0.vtx.inc.c"
 

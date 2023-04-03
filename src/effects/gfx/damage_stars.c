@@ -1,4 +1,4 @@
-#include "effects/gfx/D_09000000_343040.png.inc.c"
+#include "effects/gfx/effect__SolidStar.png.inc.c"
 
 #include "effects/gfx/D_09000400_343440.vtx.inc.c"
 #include "effects/gfx/D_09000440_343480.vtx.inc.c"

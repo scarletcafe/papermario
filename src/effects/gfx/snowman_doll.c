@@ -1,11 +1,11 @@
 #include "common.h"
 
-#include "effects/gfx/D_09000000_3BD9A0.png.inc.c"
+#include "effects/gfx/effect__60_SnowmanDoll_FaceMask.png.inc.c"
 
 #include "effects/gfx/D_09000800_3BE1A0.gfx.inc.c"
 
-#include "effects/gfx/D_09000878_3BE218.png.inc.c"
-#include "effects/gfx/D_09000878_3BE218.pal.inc.c"
+#include "effects/gfx/effect__60_SnowmanDoll_Surface.png.inc.c"
+#include "effects/gfx/effect__60_SnowmanDoll_Surface.pal.inc.c"
 
 #include "effects/gfx/D_09000A98_3BE438.gfx.inc.c"
 

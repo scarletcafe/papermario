@@ -63,48 +63,48 @@
 
 u8 D_090017A8_4009F8[8] = {};
 
-#include "effects/gfx/D_090017B0_400A00.png.inc.c"
-#include "effects/gfx/D_090017B0_400A00.pal.inc.c"
+#include "effects/gfx/effect__LilOink_Black.png.inc.c"
+#include "effects/gfx/effect__LilOink_Black.pal.inc.c"
 
 u8 D_09001810_400A60[0x1E0] = {};
 
-#include "effects/gfx/D_090019F0_400C40.png.inc.c"
-#include "effects/gfx/D_090019F0_400C40.pal.inc.c"
+#include "effects/gfx/effect__LilOink_White.png.inc.c"
+#include "effects/gfx/effect__LilOink_White.pal.inc.c"
 
 u8 D_09001A50_400CA0[0x1E0] = {};
 
-#include "effects/gfx/D_09001C30_400E80.png.inc.c"
-#include "effects/gfx/D_09001C30_400E80.pal.inc.c"
+#include "effects/gfx/effect__LilOink_Tiger.png.inc.c"
+#include "effects/gfx/effect__LilOink_Tiger.pal.inc.c"
 
 u8 D_09001C90_400EE0[0x1E0] = {};
 
-#include "effects/gfx/D_09001E70_4010C0.png.inc.c"
-#include "effects/gfx/D_09001E70_4010C0.pal.inc.c"
+#include "effects/gfx/effect__LilOink_Shroom.png.inc.c"
+#include "effects/gfx/effect__LilOink_Shroom.pal.inc.c"
 
 u8 D_09001ED0_401120[0x1E0] = {};
 
-#include "effects/gfx/D_090020B0_401300.png.inc.c"
-#include "effects/gfx/D_090020B0_401300.pal.inc.c"
+#include "effects/gfx/effect__LilOink_Flower.png.inc.c"
+#include "effects/gfx/effect__LilOink_Flower.pal.inc.c"
 
 u8 D_09002110_401360[0x1E0] = {};
 
-#include "effects/gfx/D_090022F0_401540.png.inc.c"
-#include "effects/gfx/D_090022F0_401540.pal.inc.c"
+#include "effects/gfx/effect__LilOink_Star.png.inc.c"
+#include "effects/gfx/effect__LilOink_Star.pal.inc.c"
 
 u8 D_09002350_4015A0[0x1E0] = {};
 
-#include "effects/gfx/D_09002530_401780.png.inc.c"
-#include "effects/gfx/D_09002530_401780.pal.inc.c"
+#include "effects/gfx/effect__LilOink_Question.png.inc.c"
+#include "effects/gfx/effect__LilOink_Question.pal.inc.c"
 
 u8 D_09002590_4017E0[0x1E0] = {};
 
-#include "effects/gfx/D_09002770_4019C0.png.inc.c"
-#include "effects/gfx/D_09002770_4019C0.pal.inc.c"
+#include "effects/gfx/effect__LilOink_Silver.png.inc.c"
+#include "effects/gfx/effect__LilOink_Silver.pal.inc.c"
 
 u8 D_09002890_401AE0[0x1E0] = {};
 
-#include "effects/gfx/D_09002A70_401CC0.png.inc.c"
-#include "effects/gfx/D_09002A70_401CC0.pal.inc.c"
+#include "effects/gfx/effect__LilOink_Gold.png.inc.c"
+#include "effects/gfx/effect__LilOink_Gold.pal.inc.c"
 
 u8 D_09002B90_401DE0[0x1E0] = {};
 

@@ -1,5 +1,5 @@
-#include "effects/gfx/D_09000000_356530.png.inc.c"
-#include "effects/gfx/D_09000080_3565B0.png.inc.c"
+#include "effects/gfx/effect__23_RisingBubble_356530.png.inc.c"
+#include "effects/gfx/effect__23_RisingBubble_3565B0.png.inc.c"
 
 #include "effects/gfx/D_09000100_356630.vtx.inc.c"
 #include "effects/gfx/D_09000140_356670.vtx.inc.c"

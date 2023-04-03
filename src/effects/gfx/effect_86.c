@@ -1,4 +1,4 @@
-#include "effects/gfx/D_09000000_415060.png.inc.c"
+#include "effects/gfx/effect__86_415060.png.inc.c"
 
 #include "effects/gfx/D_09000800_415860.gfx.inc.c"
 

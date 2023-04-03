@@ -1,7 +1,7 @@
-#include "effects/gfx/D_09000000_3C1BA0.png.inc.c"
-#include "effects/gfx/D_09000000_3C1BA0.pal.inc.c"
-#include "effects/gfx/D_09002020_3C3BC0.png.inc.c"
-#include "effects/gfx/D_09002020_3C3BC0.pal.inc.c"
+#include "effects/gfx/effect__61_FrightJar_1.png.inc.c"
+#include "effects/gfx/effect__61_FrightJar_1.pal.inc.c"
+#include "effects/gfx/effect__61_FrightJar_2.png.inc.c"
+#include "effects/gfx/effect__61_FrightJar_2.pal.inc.c"
 
 #include "effects/gfx/D_09004040_3C5BE0.vtx.inc.c"
 #include "effects/gfx/D_090043B0_3C5F50.vtx.inc.c"

@@ -1,6 +1,6 @@
-#include "effects/gfx/D_09000000_3326A0.png.inc.c"
-#include "effects/gfx/D_09001000_3336A0.png.inc.c"
-#include "effects/gfx/D_09001200_3338A0.png.inc.c"
+#include "effects/gfx/effect__0F_ShootingStar.png.inc.c"
+#include "effects/gfx/effect__0F_ShootingStar_3336A0.png.inc.c"
+#include "effects/gfx/effect__0F_ShootingStar_3338A0.png.inc.c"
 
 #include "effects/gfx/D_09001400_333AA0.vtx.inc.c"
 #include "effects/gfx/D_090014A0_333B40.vtx.inc.c"

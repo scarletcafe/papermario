@@ -1,10 +1,10 @@
 #include "common.h"
 
-#include "effects/gfx/D_09000000_392440.png.inc.c"
-#include "effects/gfx/D_09000080_3924C0.png.inc.c"
-#include "effects/gfx/D_09000100_392540.png.inc.c"
-#include "effects/gfx/D_09000180_3925C0.png.inc.c"
-#include "effects/gfx/D_09000200_392640.png.inc.c"
+#include "effects/gfx/effect__49_SmallSparkle_1.png.inc.c"
+#include "effects/gfx/effect__49_SmallSparkle_2.png.inc.c"
+#include "effects/gfx/effect__49_SmallSparkle_3.png.inc.c"
+#include "effects/gfx/effect__49_SmallSparkle_4.png.inc.c"
+#include "effects/gfx/effect__49_SmallSparkle_5.png.inc.c"
 
 #include "effects/gfx/D_09000280_3926C0.vtx.inc.c"
 

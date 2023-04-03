@@ -17,44 +17,44 @@
 
 u8 D_090003E0_3E6310[8] = {};
 
-#include "effects/gfx/D_090003E8_3E6318.png.inc.c"
-#include "effects/gfx/D_090005E8_3E6518.png.inc.c"
-#include "effects/gfx/D_090005E8_3E6518.pal.inc.c"
+#include "effects/gfx/effect__78_StarBeam_Gradient.png.inc.c"
+#include "effects/gfx/effect__78_StarBeam_Twink.png.inc.c"
+#include "effects/gfx/effect__78_StarBeam_Twink.pal.inc.c"
 
 u8 D_09000808_3E6738[0x1E0] = {};
 
-#include "effects/gfx/D_090009E8_3E6918.png.inc.c"
-#include "effects/gfx/D_090009E8_3E6918.pal.inc.c"
+#include "effects/gfx/effect__78_StarBeam_Eldstar.png.inc.c"
+#include "effects/gfx/effect__78_StarBeam_Eldstar.pal.inc.c"
 
 u8 D_09001208_3E7138[0x1E0] = {};
 
-#include "effects/gfx/D_090013E8_3E7318.png.inc.c"
-#include "effects/gfx/D_090013E8_3E7318.pal.inc.c"
+#include "effects/gfx/effect__78_StarBeam_Mamar.png.inc.c"
+#include "effects/gfx/effect__78_StarBeam_Mamar.pal.inc.c"
 
 u8 D_09001C08_3E7B38[0x1E0] = {};
 
-#include "effects/gfx/D_09001DE8_3E7D18.png.inc.c"
-#include "effects/gfx/D_09001DE8_3E7D18.pal.inc.c"
+#include "effects/gfx/effect__78_StarBeam_Misstar.png.inc.c"
+#include "effects/gfx/effect__78_StarBeam_Misstar.pal.inc.c"
 
 u8 D_09002608_3E8538[0x1E0] = {};
 
-#include "effects/gfx/D_090027E8_3E8718.png.inc.c"
-#include "effects/gfx/D_090027E8_3E8718.pal.inc.c"
+#include "effects/gfx/effect__78_StarBeam_Muskular.png.inc.c"
+#include "effects/gfx/effect__78_StarBeam_Muskular.pal.inc.c"
 
 u8 D_09003008_3E8F38[0x1E0] = {};
 
-#include "effects/gfx/D_090031E8_3E9118.png.inc.c"
-#include "effects/gfx/D_090031E8_3E9118.pal.inc.c"
+#include "effects/gfx/effect__78_StarBeam_Skolar.png.inc.c"
+#include "effects/gfx/effect__78_StarBeam_Skolar.pal.inc.c"
 
 u8 D_09003A08_3E9938[0x1E0] = {};
 
-#include "effects/gfx/D_09003BE8_3E9B18.png.inc.c"
-#include "effects/gfx/D_09003BE8_3E9B18.pal.inc.c"
+#include "effects/gfx/effect__78_StarBeam_Klevar.png.inc.c"
+#include "effects/gfx/effect__78_StarBeam_Klevar.pal.inc.c"
 
 u8 D_09004408_3EA338[0x1E0] = {};
 
-#include "effects/gfx/D_090045E8_3EA518.png.inc.c"
-#include "effects/gfx/D_090045E8_3EA518.pal.inc.c"
+#include "effects/gfx/effect__78_StarBeam_Kalmar.png.inc.c"
+#include "effects/gfx/effect__78_StarBeam_Kalmar.pal.inc.c"
 
 u8 D_09004E08_3EAD38[0x1E0] = {};
 

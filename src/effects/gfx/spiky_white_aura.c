@@ -1,4 +1,4 @@
-#include "effects/gfx/D_09000000_34E770.png.inc.c"
+#include "effects/gfx/effect__1C_SpikyWhiteAura.png.inc.c"
 
 #include "effects/gfx/D_09000400_34EB70.vtx.inc.c"
 

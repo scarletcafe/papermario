@@ -1,6 +1,6 @@
 #include "common.h"
 
-#include "effects/gfx/D_09000000_403BF0.png.inc.c"
+#include "effects/gfx/effect__7E_BreakingJunk.png.inc.c"
 #include "effects/gfx/D_09000100_403CF0.png.inc.c"
 #include "effects/gfx/D_09000200_403DF0.png.inc.c"
 #include "effects/gfx/D_09000300_403EF0.png.inc.c"

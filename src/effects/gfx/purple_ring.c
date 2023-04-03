@@ -1,4 +1,4 @@
-#include "effects/gfx/D_09000000_352CE0.png.inc.c"
+#include "effects/gfx/effect__1F_PurpleRing_Detail.png.inc.c"
 
 #include "effects/gfx/D_09000200_352EE0.gfx.inc.c"
 

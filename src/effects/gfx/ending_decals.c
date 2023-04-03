@@ -1,10 +1,10 @@
 #include "common.h"
 
-#include "effects/gfx/D_09000000_36AEE0.png.inc.c"
-#include "effects/gfx/D_09001000_36BEE0.png.inc.c"
-#include "effects/gfx/D_09001400_36C2E0.png.inc.c"
-#include "effects/gfx/D_09001800_36C6E0.png.inc.c"
-#include "effects/gfx/D_09001000_36BEE0.pal.inc.c"
+#include "effects/gfx/effect__34_Ending_Bubble.png.inc.c"
+#include "effects/gfx/effect__34_Ending_Cloud_1.png.inc.c"
+#include "effects/gfx/effect__34_Ending_Cloud_2.png.inc.c"
+#include "effects/gfx/effect__34_Ending_Cloud_3.png.inc.c"
+#include "effects/gfx/effect__34_Ending_Cloud_1.pal.inc.c"
 
 u8 D_09001C20_36CB00[0x1E0] = {};
 

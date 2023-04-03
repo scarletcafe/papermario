@@ -1,7 +1,7 @@
 #include "common.h"
 
-#include "effects/gfx/D_09000000_40BBA0.png.inc.c"
-#include "effects/gfx/D_09000200_40BDA0.png.inc.c"
+#include "effects/gfx/effect__82_SunRay_Beam.png.inc.c"
+#include "effects/gfx/effect__82_SunRay_Variation.png.inc.c"
 
 #include "effects/gfx/D_09000600_40C1A0.vtx.inc.c"
 #include "effects/gfx/D_09000680_40C220.vtx.inc.c"

@@ -1,6 +1,6 @@
 #include "common.h"
 
-#include "effects/gfx/D_09000000_3BCA90.png.inc.c"
+#include "effects/gfx/effect__5F_WaterDrop.png.inc.c"
 #include "effects/gfx/D_09000100_3BCB90.gfx.inc.c"
 
 #include "effects/gfx/D_090001A8_3BCC38.vtx.inc.c"

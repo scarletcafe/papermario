@@ -1,4 +1,4 @@
-#include "effects/gfx/D_09000000_339F60.png.inc.c"
+#include "effects/gfx/effect__12_ShapeSpell.png.inc.c"
 
 #include "effects/gfx/D_09001000_33AF60.vtx.inc.c"
 #include "effects/gfx/D_09001040_33AFA0.vtx.inc.c"

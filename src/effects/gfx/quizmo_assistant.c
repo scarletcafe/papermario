@@ -1,22 +1,22 @@
 #include "common.h"
 
-#include "effects/gfx/D_09000000_407080.png.inc.c"
-#include "effects/gfx/D_09000000_407080.pal.inc.c"
+#include "effects/gfx/effect__80_VannaT_Idle.png.inc.c"
+#include "effects/gfx/effect__80_VannaT_Idle.pal.inc.c"
 
 u8 D_09000820_4078A0[0x1E0] = {};
 
-#include "effects/gfx/D_09000A00_407A80.png.inc.c"
-#include "effects/gfx/D_09000A00_407A80.pal.inc.c"
+#include "effects/gfx/effect__80_VannaT_Hands.png.inc.c"
+#include "effects/gfx/effect__80_VannaT_Hands.pal.inc.c"
 
 u8 D_09000E20_407EA0[0x1E0] = {};
 
-#include "effects/gfx/D_09001000_408080.png.inc.c"
-#include "effects/gfx/D_09001000_408080.pal.inc.c"
+#include "effects/gfx/effect__80_VannaT_Clap_1.png.inc.c"
+#include "effects/gfx/effect__80_VannaT_Clap_1.pal.inc.c"
 
 u8 D_09001820_4088A0[0x1E0] = {};
 
-#include "effects/gfx/D_09001A00_408A80.png.inc.c"
-#include "effects/gfx/D_09001A00_408A80.pal.inc.c"
+#include "effects/gfx/effect__80_VannaT_Clap_2.png.inc.c"
+#include "effects/gfx/effect__80_VannaT_Clap_2.pal.inc.c"
 
 u8 D_09002220_4092A0[0x1E0] = {};
 

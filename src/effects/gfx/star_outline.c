@@ -1,4 +1,4 @@
-#include "effects/gfx/D_09000000_413FA0.png.inc.c"
+#include "effects/gfx/effect__85_StarOutline_Glow.png.inc.c"
 
 #include "effects/gfx/D_09000800_4147A0.gfx.inc.c"
 

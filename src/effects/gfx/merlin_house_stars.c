@@ -1,5 +1,5 @@
-#include "effects/gfx/D_09000000_3A5BE0.png.inc.c"
-#include "effects/gfx/D_09000800_3A63E0.png.inc.c"
+#include "effects/gfx/effect__53_MerlinHouseStars_A.png.inc.c"
+#include "effects/gfx/effect__53_MerlinHouseStars_B.png.inc.c"
 
 #include "effects/gfx/D_09001000_3A6BE0.gfx.inc.c"
 

@@ -1,5 +1,5 @@
-#include "effects/gfx/D_09000000_375510.png.inc.c"
-#include "effects/gfx/D_09000800_375D10.png.inc.c"
+#include "effects/gfx/effect__39_EnergyShockwave_Wide.png.inc.c"
+#include "effects/gfx/effect__39_EnergyShockwave_Narrow.png.inc.c"
 
 #include "effects/gfx/D_09000A00_375F10.vtx.inc.c"
 #include "effects/gfx/D_09000C00_376110.vtx.inc.c"

@@ -1,4 +1,4 @@
-#include "effects/gfx/D_09000000_37D180.png.inc.c"
+#include "effects/gfx/effect__3D_Water.png.inc.c"
 
 #include "effects/gfx/D_09000200_37D380.vtx.inc.c"
 

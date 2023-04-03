@@ -1,7 +1,7 @@
 #include "common.h"
 
-#include "effects/gfx/D_09000000_3E12D0.png.inc.c"
-#include "effects/gfx/D_09000000_3E12D0.pal.inc.c"
+#include "effects/gfx/effect__73_StaticStatus.png.inc.c"
+#include "effects/gfx/effect__73_StaticStatus.pal.inc.c"
 
 u8 D_090000A0_3E1370[0x1E0] = {};
 

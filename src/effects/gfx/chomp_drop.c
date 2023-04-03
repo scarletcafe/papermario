@@ -1,5 +1,5 @@
-#include "effects/gfx/D_09000000_397040.png.inc.c"
-#include "effects/gfx/D_09000800_397840.png.inc.c"
+#include "effects/gfx/effect__4D_ChompDrop_Glow.png.inc.c"
+#include "effects/gfx/effect__4D_ChompDrop_Solid.png.inc.c"
 
 #include "effects/gfx/D_09001000_398040.vtx.inc.c"
 
